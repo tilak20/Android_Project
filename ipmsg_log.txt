@@ -1,0 +1,5420 @@
+﻿=====================================
+ From: R&W ANDROID (RWs-Mac-Pro)
+  at Thursday, 30 June 2022 at 8:02:04 AM
+-------------------------------------
+
+
+=====================================
+ To: r94 (RWs-Mac-Pro)
+ To: r88 (RWs-Mac-Pro)
+ To: r90 (RWs-Mac-Pro)
+ To: r87 (RWs-Mac-Pro)
+ To: r89 (RWs-Mac-Pro)
+ To: r93 (RWs-Mac-Pro)
+ To: r91 (RWs-Mac-Pro)
+ To: r92 (RWs-Mac-Pro)
+  at Thursday, 30 June 2022 at 9:54:16 AM(multi)(files)
+-------------------------------------
+
+
+=====================================
+ To: r90 (RWs-Mac-Pro)
+ To: r94 (RWs-Mac-Pro)
+ To: r92 (RWs-Mac-Pro)
+ To: r93 (RWs-Mac-Pro)
+ To: r91 (RWs-Mac-Pro)
+  at Thursday, 30 June 2022 at 11:16:04 AM(multi)(files)
+-------------------------------------
+
+
+=====================================
+ To: r92 (RWs-Mac-Pro)
+  at Thursday, 30 June 2022 at 11:40:12 AM(files)
+-------------------------------------
+
+
+=====================================
+ To: r91 (RWs-Mac-Pro)
+  at Thursday, 30 June 2022 at 11:49:37 AM(files)
+-------------------------------------
+
+
+=====================================
+ To: r89 (RWs-Mac-Pro)
+  at Thursday, 30 June 2022 at 11:52:19 AM(files)
+-------------------------------------
+
+
+=====================================
+ From: r94 (RWs-Mac-Pro)
+  at Friday, 1 July 2022 at 12:57:40 PM
+-------------------------------------
+hii
+
+=====================================
+ From: r94 (RWs-Mac-Pro)
+  at Friday, 1 July 2022 at 12:58:09 PM
+-------------------------------------
+
+
+=====================================
+ To: r94 (RWs-Mac-Pro)
+  at Friday, 1 July 2022 at 4:56:51 PM(files)
+-------------------------------------
+
+
+=====================================
+ To: r96 (RWs-Mac-Pro)
+  at Friday, 16 September 2016 at 2:25:46 AM(files)
+-------------------------------------
+
+
+=====================================
+ To: R86 (R86s-iMac-Pro)
+  at Thursday, 22 September 2022 at 9:22:14 AM(files)
+-------------------------------------
+
+
+=====================================
+ From: r90 (RWs-Mac-Pro)
+  at Tuesday, 2 January 2024 at 3:37:04 AM(multi)
+-------------------------------------
+
+
+=====================================
+ From: r92 (RWs-Mac-Pro)
+  at Tuesday, 18 October 2022 at 8:10:59 PM
+-------------------------------------
+struct Pcpart{
+    var keyboardkey: Int
+    var mouseTypes: String
+    var cpu: Int = 1
+    var monitor: String = "thinkversion"
+    
+    
+    
+    func isPcProperWorking(){
+        
+    }
+    func isGraphicCard(){
+        
+    }
+    func isPcSupportedWindows(){
+        
+    }
+}
+var hardware: Pcpart = Pcpart(keyboardkey: 106, mouseTypes: "wireless mouse")
+hardware.keyboardkey
+print(hardware)
+
+var hardware1: Pcpart = Pcpart(keyboardkey: 79, mouseTypes: "thinkpad")
+
+var hardware2: Pcpart = Pcpart(keyboardkey: 104, mouseTypes: "wired mouse")
+
+var port: Pcpart = hardware
+
+
+
+=====================================
+ To: r92 (RWs-Mac-Pro)
+  at Tuesday, 18 October 2022 at 8:12:37 PM
+-------------------------------------
+struct  Flower {
+    var name: String
+    var color: String
+    var isBeuatiful: Bool
+    var  avalibleforIndia: Bool
+
+    func isBeautiful () {
+
+        print("Color is great")
+        print("Yes this flower is very beutiful")
+    }
+
+    func openAccount(adharcardCopy: String, panNumber: String) -> Bool {
+        //Check Adharcard
+
+
+        //Check pancard number is valid or not
+        //Check pancard is linked with adharcars
+        return true
+    }
+
+
+    func avalibleInIndia () {}
+}
+
+var aster: Flower = Flower(name: "Aster", color: "Nathi Khabar", isBeuatiful: true, avalibleforIndia: true)
+var rose: Flower = Flower (name: "rose", color:"red", isBeuatiful: true, avalibleforIndia: true)
+var whiteRose: Flower = Flower (name: "rose", color:"red", isBeuatiful: true, avalibleforIndia: true)//rose
+
+
+rose.name = "Red Rose"
+print(rose.name)
+print(whiteRose.name)
+
+
+
+=====================================
+ From: r93 (RWs-Mac-Pro)
+  at Tuesday, 18 October 2022 at 8:13:46 PM
+-------------------------------------
+struct Bike {
+    var price: Float
+    var colour: String
+    var model: String
+    var company: String
+    
+    func bikeSpeed() {
+        
+    }
+    func bikeAverage() {
+        
+    }
+}
+var bike = Bike(price: 4708989, colour: "gray", model: "2023", company: "royal enfield")
+var myBike = Bike(price: 2367845, colour: "red", model: "1999", company: "honda")
+var papaBike = Bike(price: 4676478, colour: "white", model: "2014", company: "KTM")
+var rakshilbike = bike
+print(bike)
+
+=====================================
+ From: r92 (RWs-Mac-Pro)
+  at Tuesday, 18 October 2022 at 8:14:53 PM
+-------------------------------------
+
+
+=====================================
+ From: r92 (RWs-Mac-Pro)
+  at Tuesday, 18 October 2022 at 8:16:06 PM
+-------------------------------------
+struct Pcpart{
+    var keyboardkey: Int
+    var mouseTypes: String
+    var cpu: Int = 1
+    var monitor: String = "thinkversion"
+    
+    
+    
+    func isPcProperWorking(){
+        
+    }
+    func isGraphicCard(){
+        
+    }
+    func isPcSupportedWindows(){
+        
+    }
+}
+var hardware: Pcpart = Pcpart(keyboardkey: 106, mouseTypes: "wireless mouse")
+hardware.keyboardkey
+print(hardware)
+
+var hardware1: Pcpart = Pcpart(keyboardkey: 79, mouseTypes: "thinkpad")
+
+var hardware2: Pcpart = Pcpart(keyboardkey: 104, mouseTypes: "wired mouse")
+
+var port: Pcpart = hardware
+
+
+
+
+struct  Flower {
+    var name: String
+    var color: String
+    var isBeuatiful: Bool
+    var  avalibleforIndia: Bool
+
+    func isBeautiful () {
+
+        print("Color is great")
+        print("Yes this flower is very beutiful")
+    }
+
+    func openAccount(adharcardCopy: String, panNumber: String) -> Bool {
+        //Check Adharcard
+
+
+        //Check pancard number is valid or not
+        //Check pancard is linked with adharcars
+        return true
+    }
+
+
+    func avalibleInIndia () {}
+}
+
+var aster: Flower = Flower(name: "Aster", color: "Nathi Khabar", isBeuatiful: true, avalibleforIndia: true)
+var rose: Flower = Flower (name: "rose", color:"red", isBeuatiful: true, avalibleforIndia: true)
+var whiteRose: Flower = Flower (name: "rose", color:"red", isBeuatiful: true, avalibleforIndia: true)//rose
+
+
+rose.name = "Red Rose"
+print(rose.name)
+print(whiteRose.name)
+
+
+
+struct Bike {
+    var price: Float
+    var colour: String
+    var model: String
+    var company: String
+    
+    func bikeSpeed() {
+        
+    }
+    func bikeAverage() {
+        
+    }
+}
+var bike = Bike(price: 4708989, colour: "gray", model: "2023", company: "royal enfield")
+var myBike = Bike(price: 2367845, colour: "red", model: "1999", company: "honda")
+var papaBike = Bike(price: 4676478, colour: "white", model: "2014", company: "KTM")
+var rakshilbike = bike
+print(bike)
+
+
+
+struct Classroom
+{
+    var totalComputer: Int = 20
+    var countOfBanches: Int
+    var numberOfStudent: Int
+    var blackBoardSize: Float = 5.0
+    var countOfFan: Int = 1
+    var classNumber: String
+    
+    func allStudentsArePresents()
+    {
+        
+    }
+    func isSirTeachingProperly()
+    {
+        
+    }
+    func isAllComputerAreOn()
+    {
+        
+    }
+}
+var rnw: Classroom = Classroom(totalComputer: 20, countOfBanches: 19, numberOfStudent: 20, blackBoardSize: 5.0, countOfFan: 1, classNumber: "17/B")
+
+var rnw1: Classroom = Classroom(totalComputer: 19, countOfBanches: 17, numberOfStudent: 19, blackBoardSize: 4.0, countOfFan: 2, classNumber: "17/A")
+rnw1.classNumber
+print(rnw1)
+
+var rnw2: Classroom = Classroom(totalComputer: 45, countOfBanches: 21, numberOfStudent: 78, blackBoardSize: 52, countOfFan: 30, classNumber: "16/C")
+
+var rnwClasses: Classroom = rnw2
+
+
+=====================================
+ From: r94 (RWs-Mac-Pro)
+  at Tuesday, 18 October 2022 at 8:20:07 PM
+-------------------------------------
+struct Creative {
+    var address: String
+    var ownerName: String
+    var newStudent: Int
+    var oldStudent: Int
+    
+    func numberOfCourse() {
+        
+    }
+    func openAddmission () {
+        
+    }
+   
+}
+var classes = Creative ( address: "A.K" , ownerName: "hitesh" , newStudent: 300, oldStudent: 400)
+var classes1 = Creative ( address: "Sarthana" , ownerName:"Sahil" , newStudent: 700 , oldStudent: 500)
+var classes2 = Creative ( address: "Ahemdabad" , ownerName: "bhavin"  , newStudent: 900 , oldStudent: 600)
+var classes3 = classes
+print(classes)
+classes2.ownerName
+
+
+=====================================
+ From: r92 (RWs-Mac-Pro)
+  at Tuesday, 18 October 2022 at 8:28:49 PM
+-------------------------------------
+//structure
+struct Pcpart{
+    var keyboardkey: Int
+    var mouseTypes: String
+    var cpu: Int = 1
+    var monitor: String = "thinkversion"
+    
+    
+    
+    func isPcProperWorking(){
+        
+    }
+    func isGraphicCard(){
+        
+    }
+    func isPcSupportedWindows(){
+        
+    }
+}
+var hardware: Pcpart = Pcpart(keyboardkey: 106, mouseTypes: "wireless mouse")
+hardware.keyboardkey
+print(hardware)
+
+var hardware1: Pcpart = Pcpart(keyboardkey: 79, mouseTypes: "thinkpad")
+
+var hardware2: Pcpart = Pcpart(keyboardkey: 104, mouseTypes: "wired mouse")
+
+var port: Pcpart = hardware
+
+
+
+
+
+
+
+struct  Flower {
+    var name: String
+    var color: String
+    var isBeuatiful: Bool
+    var  avalibleforIndia: Bool
+
+    func isBeautiful () {
+
+        print("Color is great")
+        print("Yes this flower is very beutiful")
+    }
+
+    func openAccount(adharcardCopy: String, panNumber: String) -> Bool {
+        //Check Adharcard
+
+
+        //Check pancard number is valid or not
+        //Check pancard is linked with adharcars
+        return true
+    }
+
+
+    func avalibleInIndia () {}
+}
+
+var aster: Flower = Flower(name: "Aster", color: "Nathi Khabar", isBeuatiful: true, avalibleforIndia: true)
+var rose: Flower = Flower (name: "rose", color:"red", isBeuatiful: true, avalibleforIndia: true)
+var whiteRose: Flower = Flower (name: "rose", color:"red", isBeuatiful: true, avalibleforIndia: true)//rose
+
+
+rose.name = "Red Rose"
+print(rose.name)
+print(whiteRose.name)
+
+
+
+
+
+
+struct Bike {
+    var price: Float
+    var colour: String
+    var model: String
+    var company: String
+    
+    func bikeSpeed() {
+        
+    }
+    func bikeAverage() {
+        
+    }
+}
+var bike = Bike(price: 4708989, colour: "gray", model: "2023", company: "royal enfield")
+
+
+
+
+
+
+// class
+
+class Classroom
+{
+    var totalComputer: Int = 20
+    var countOfBanches: Int
+    var numberOfStudent: Int
+    var blackBoardSize: Float = 5.0
+    var countOfFan: Int = 1
+    
+    init(countOfBanches: Int,numberOfStudent: Int){
+        self.countOfBanches = countOfBanches
+        self.numberOfStudent = numberOfStudent
+    }
+    
+   
+}
+var rnw: Classroom = Classroom(countOfBanches: 12, numberOfStudent: 14)
+
+
+
+
+
+
+class Humanssurvey {
+    var population: Float = 8000000000.0
+    var brainsetOfMostChilds: String
+    var mostCommenSkinColor: String
+    var humansBestInvention : String = "Internet"
+    
+    init(brainsetOfMostChilds: String,mostCommenSkinColor: String){
+        
+        self.brainsetOfMostChilds = brainsetOfMostChilds
+        self.mostCommenSkinColor = mostCommenSkinColor
+        
+    }
+    
+}
+
+var surveyNumberOne : Humanssurvey = Humanssurvey(brainsetOfMostChilds: "shootemepar", mostCommenSkinColor: "white")
+
+
+
+
+=====================================
+ From: r91 (RWs-Mac-Pro)
+  at Tuesday, 18 October 2022 at 8:35:19 PM
+-------------------------------------
+phota sarkha padje ali
+
+=====================================
+ From: r91 (RWs-Mac-Pro)
+  at Friday, 21 October 2022 at 8:49:31 AM
+-------------------------------------
+func oddEvenNumber(arrNumber: [Int])
+{
+    var total: Int = 0
+    var totalEvenNumber: Int = 0
+    var totalOddNumber: Int = 0
+
+    for number in arrNumber
+    {
+        total = total + number
+        print(total)
+        if number%2 == 0
+        {
+            print("\(number) is even")
+            totalEvenNumber = totalEvenNumber + number
+            print(totalEvenNumber)
+            
+        }
+        else
+        {
+            print("\(number) is odd")
+            totalOddNumber = totalOddNumber + number
+            print(totalOddNumber)
+        }
+        
+        totalEvenNumber = totalEvenNumber + totalOddNumber
+        print(totalEvenNumber)
+    }
+}
+
+oddEvenNumber(arrNumber: [5,11,15,26])
+
+
+=====================================
+ From: r93 (RWs-Mac-Pro)
+  at Friday, 21 October 2022 at 8:49:53 AM
+-------------------------------------
+func totalNumber(arrnumber: [Int]) {
+//
+//    var evenNumber: Int = 0
+//    var oddNumber: Int = 0
+//
+//    for number in arrnumber{
+//
+//        if number%2==0 {
+//            print ("\(number) is even number.")
+//            evenNumber = evenNumber + number
+//            print(evenNumber)
+//
+//        } else {
+//            print("\(number) is odd number")
+//            oddNumber = oddNumber + number
+//            print(oddNumber)
+//        }
+//        var total: Int
+//        total = oddNumber + evenNumber
+//        print(total)
+//    }
+//}
+//totalNumber(arrnumber: [1,67,7,2,4,8,9])
+
+
+
+
+
+=====================================
+ From: r91 (RWs-Mac-Pro)
+  at Friday, 21 October 2022 at 8:50:46 AM
+-------------------------------------
+func oddEvenNumber(arrNumber: [Int])
+{
+    var total: Int = 0
+    var totalEvenNumber: Int = 0
+    var totalOddNumber: Int = 0
+
+    for number in arrNumber
+    {
+        total = total + number
+        print(total)
+        if number%2 == 0
+        {
+            print("\(number) is even")
+            totalEvenNumber = totalEvenNumber + number
+            print(totalEvenNumber)
+            
+        }
+        else
+        {
+            print("\(number) is odd")
+            totalOddNumber = totalOddNumber + number
+            print(totalOddNumber)
+        }
+        
+        totalEvenNumber = totalEvenNumber + totalOddNumber
+        print(totalEvenNumber)
+    }
+}
+
+oddEvenNumber(arrNumber: [5,11,15,26])
+
+
+=====================================
+ From: r93 (RWs-Mac-Pro)
+  at Friday, 21 October 2022 at 8:50:50 AM
+-------------------------------------
+func totalNumber(arrnumber: [Int]) {
+//
+//    var evenNumber: Int = 0
+//    var oddNumber: Int = 0
+//
+//    for number in arrnumber{
+//
+//        if number%2==0 {
+//            print ("\(number) is even number.")
+//            evenNumber = evenNumber + number
+//            print(evenNumber)
+//
+//        } else {
+//            print("\(number) is odd number")
+//            oddNumber = oddNumber + number
+//            print(oddNumber)
+//        }
+//        var total: Int
+//        total = oddNumber + evenNumber
+//        print(total)
+//    }
+//}
+//totalNumber(arrnumber: [1,67,7,2,4,8,9])
+
+
+
+
+
+=====================================
+ To: r92 (RWs-Mac-Pro)
+  at Thursday, 3 November 2022 at 8:42:02 AM
+-------------------------------------
+var arrKeys: [String] = ["A","B","C","D"]
+arrKeys.append("E")
+arrKeys.append(contentsOf: ["F","G"])
+arrKeys.remove(at: 6)
+print(arrKeys)
+print(arrKeys.count)
+print(arrKeys[0])
+print(arrKeys[1])
+print(arrKeys.first as! String)
+
+
+var arrKeysArry: NSArray = ["A","B","C","D"]
+arrKeysArry = arrKeysArry.adding("E")as NSArray
+print(arrKeysArry)
+
+       
+
+var arrNames: NSMutableArray = ["manu","sanju","nidhu","fenu"]
+var arrAZeroANdOnes: NSMutableArray = [0,1,0,0,6,4,8,4,2]
+print(arrNames.count)
+arrNames.adding("tanu")
+arrNames.replaceObject(at: 3, with: "kavu")
+print(arrNames)
+arrNames.remove("sanju")
+arrNames.insert("start", at: 0)
+arrNames.reversed()
+
+
+
+
+=====================================
+ To: r91 (RWs-Mac-Pro)
+  at Thursday, 3 November 2022 at 8:42:10 AM
+-------------------------------------
+
+
+=====================================
+ To: r91 (RWs-Mac-Pro)
+  at Thursday, 3 November 2022 at 8:42:21 AM
+-------------------------------------
+var arrKeys: [String] = ["A","B","C","D"]
+arrKeys.append("E")
+arrKeys.append(contentsOf: ["F","G"])
+arrKeys.remove(at: 6)
+print(arrKeys)
+print(arrKeys.count)
+print(arrKeys[0])
+print(arrKeys[1])
+print(arrKeys.first as! String)
+
+
+var arrKeysArry: NSArray = ["A","B","C","D"]
+arrKeysArry = arrKeysArry.adding("E")as NSArray
+print(arrKeysArry)
+
+       
+
+var arrNames: NSMutableArray = ["manu","sanju","nidhu","fenu"]
+var arrAZeroANdOnes: NSMutableArray = [0,1,0,0,6,4,8,4,2]
+print(arrNames.count)
+arrNames.adding("tanu")
+arrNames.replaceObject(at: 3, with: "kavu")
+print(arrNames)
+arrNames.remove("sanju")
+arrNames.insert("start", at: 0)
+arrNames.reversed()
+
+
+
+
+=====================================
+ From: r92 (RWs-Mac-Pro)
+  at Thursday, 3 November 2022 at 8:47:50 AM
+-------------------------------------
+//1
+
+
+func evenOrOdd(number: Int) {
+    
+    if number % 2 == 0 {
+        print("even")
+    }else{
+        print("Odd")
+    }
+    
+}
+
+evenOrOdd(number: 56)
+
+
+//2
+
+
+
+
+var value1: Int = 64
+var value2: Int = 5034
+var value3: Int = 123
+var max: Int = 0
+
+func maximumNumber () {
+    if value1 > value2
+    {
+        if value1 > value3
+        {
+            max = value1
+        } else
+         {
+            max = value3
+         }
+    } else
+    {
+        if value2 > value3
+         {
+            max = value2
+         }else
+         {
+             max = value3
+         }
+    }
+}
+
+maximumNumber()
+
+
+//3
+
+
+var year: Int = 2008
+
+func leapYearOrNot (){
+    if year % 400 == 0
+    {
+         print("\(year) is a leap year")
+    } else if year % 100 == 0 {
+         print("\(year) is not a leap year")
+    } else if year % 4 == 0 {
+         print("\(year) is a leap year")
+    } else {
+         print("\(year) is not a leap year")
+        
+    }
+}
+
+
+leapYearOrNot()
+
+
+//5
+
+
+
+var months: Int = 9
+
+func daysInMonth () {
+    
+      if month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12
+      {
+         print("31 Days")
+      }else if month == 4 || month == 6 || month == 9 || month == 11
+      {
+          print("30 Days")
+      }else if month == 2
+      {
+          print("28 - 29 Days")
+      }else
+      {
+          print("Invalid Month")
+      }
+}
+
+
+
+daysInMonth()
+
+
+
+//6
+
+
+var no1: Float = 1
+var no2: Float = 1
+var no3: Float = 1
+var no4: Float = 1
+var root1: Float = 20
+var root2: Float = 20
+
+
+func rootsAndQuadraicEquation (){
+    no4 = no2 * no2 - 4 * no1 * no3
+    
+    if no4 > 0{
+        root1 = -no2+sqrt(no4) / (2 * no1)
+        root2 = -no2-sqrt(no4) / (2 * no1)
+        print("The real root = \(root1),\(root2)")
+    }else if no4 == 0 {
+        root1 = -no2/(2*no1)
+        root2 = -no2/(2*no1)
+        print("root are equal = \(root1),\(root2)")
+    }else{
+        print("Root are imaginary")
+    }
+}
+
+
+rootsAndQuadraicEquation()
+
+
+
+//8
+
+var week: Int = 5
+
+func namesOfWeek (){
+    
+switch(week)
+{
+case 1:
+    print("Monday");
+    break;
+case 2:
+    print("Tuesday");
+    break;
+case 3:
+    print("Wednesday");
+    break;
+case 4:
+    print("Thursday");
+    break;
+case 5:
+    print("Friday");
+    break;
+case 6:
+    print("Saturday");
+    break;
+case 7:
+    print("Sunday");
+    break;
+default:
+    print("Invalid input! Please enter week number between 1-7.");
+}
+    
+}
+
+
+namesOfWeek()
+
+
+
+
+//9
+
+
+
+
+var month: Int = 6
+
+func totalNumberOfDays (){
+    
+switch(month)
+{
+case 1:
+    print("31 days");
+    break;
+case 2:
+    print("28/29 days");
+    break;
+case 3:
+    print("31 days");
+    break;
+case 4:
+    print("30 days");
+    break;
+case 5:
+    print("31 days");
+    break;
+case 6:
+    print("30 days");
+    break;
+case 7:
+    print("31 days");
+    break;
+case 8:
+    print("31 days");
+    break;
+case 9:
+    print("30 days");
+    break;
+case 10:
+    print("31 days");
+    break;
+case 11:
+    print("30 days");
+    break;
+case 12:
+    print("31 days");
+    break;
+default:
+    print("Invalid input! Please enter month number between 1-12");
+    
+}
+
+}
+
+
+totalNumberOfDays()
+
+
+
+
+//10
+
+
+var choice: Int = 3
+
+func calculator (firstNum:Int,secondNum:Int) {
+    
+   
+    switch choice
+    {
+    case 1:
+        firstNum+secondNum
+        break;
+    case 2:
+        firstNum-secondNum
+        break;
+    case 3:
+        firstNum*secondNum
+        break;
+    case 4:
+        firstNum/secondNum
+        break;
+        
+    default:
+        print("Invalid input! Please enter week number between 1-7.");
+    }
+    
+}
+
+calculator(firstNum: 7, secondNum: 0)
+
+
+
+
+=====================================
+ From: Bhautik Rajodiya (RWs-Mac-Pro)
+  at Saturday, 5 November 2022 at 7:39:40 AM(multi)
+-------------------------------------
+
+
+=====================================
+ From: R&W ANDROID (RWs-Mac-Pro)
+  at Monday, 7 November 2022 at 8:33:21 AM
+-------------------------------------
+var arr2DNumbers: [[Int]] = [[4,5,6,7],
+                             [3,45,66,74,56],
+                             [43,55,67,47],
+                             [45,56,64,73],
+                             [84,90,76,7]]
+
+
+//func print2DArray(arr2DArray: [[Int]]) {
+//    for row in 0..<arr2DArray.count {
+//        let innerArray: [Int] = arr2DArray[row]
+//        for coloumn in 0..<innerArray.count //for coloumn in 0..<arr2DArray[row].count
+//        {
+//            print("Row number \(row) and coloum numner \(coloumn)")
+//            print("Element \(arr2DArray[row][coloumn])")
+//            print("Another way of print Element \(innerArray[coloumn])")
+//        }
+//    }
+//}
+//print(print2DArray(arr2DArray: arr2DNumbers))
+
+
+
+//func getIndexFrom2DArrayFor(element: Int, arr2DArray: [[Int]]) {
+//    for row in 0..<arr2DArray.count {
+//        let innerArray: [Int] = arr2DArray[row]
+//        for coloumn in 0..<innerArray.count //for coloumn in 0..<arr2DArray[row].count
+//        {
+//            if arr2DArray[row][coloumn] == element {
+//                print("Row number \(row) and coloum numner \(coloumn)")
+//            }
+//        }
+//    }
+//}
+//
+//print(getIndexFrom2DArrayFor(element:93, arr2DArray: arr2DNumbers))
+
+
+//func printAllElementInxexOf2DArrayLessThan(element: Int, arr2DArray: [[Int]]) {
+//    for row in 0..<arr2DArray.count {
+//        let innerArray: [Int] = arr2DArray[row]
+//        for coloumn in 0..<innerArray.count //for coloumn in 0..<arr2DArray[row].count
+//        {
+//            if arr2DArray[row][coloumn] < element {
+//                print("Row number \(row) and coloum numner \(coloumn)")
+//            }
+//        }
+//    }
+//}
+//
+//print(printAllElementInxexOf2DArrayLessThan(element:50, arr2DArray: arr2DNumbers))
+
+func printAllElementOf2DArrayLessThan(element: Int, arr2DArray: [[Int]]) {
+    for row in 0..<arr2DArray.count {
+        let innerArray: [Int] = arr2DArray[row]
+        for coloumn in 0..<innerArray.count //for coloumn in 0..<arr2DArray[row].count
+        {
+            if arr2DArray[row][coloumn] > element {
+                print("\(arr2DArray[row][coloumn]) and row =>\(row), coloumn = \(coloumn)")
+            }
+        }
+    }
+}
+
+print(printAllElementOf2DArrayLessThan(element:50, arr2DArray: arr2DNumbers))
+
+var arr2DStrings: [[String]] = [["Meet", "Mehul", "Kishan"],
+                             ["Ravina", "Kat", "Deepika", "SRK"],
+                             ["Kohli","Pandya","DK","Aray"]]
+
+func printAllElementOf2DArray(arr2DArray: [[String]]) {
+    for row in 0..<arr2DArray.count {
+        let innerArray: [String] = arr2DArray[row]
+        for coloumn in 0..<innerArray.count //for coloumn in 0..<arr2DArray[row].count
+        {
+            if arr2DArray[row][coloumn] == "Kohli" {
+                print("\(arr2DArray[row][coloumn]) and row =>\(row), coloumn = \(coloumn)")
+            }
+        }
+    }
+}
+
+print(printAllElementOf2DArray(arr2DArray: arr2DStrings))
+
+
+=====================================
+ To: r80 (RWs-Mac-Pro)
+  at Monday, 7 November 2022 at 8:33:42 AM
+-------------------------------------
+var arr2DNumbers: [[Int]] = [[4,5,6,7],
+                             [3,45,66,74,56],
+                             [43,55,67,47],
+                             [45,56,64,73],
+                             [84,90,76,7]]
+
+
+//func print2DArray(arr2DArray: [[Int]]) {
+//    for row in 0..<arr2DArray.count {
+//        let innerArray: [Int] = arr2DArray[row]
+//        for coloumn in 0..<innerArray.count //for coloumn in 0..<arr2DArray[row].count
+//        {
+//            print("Row number \(row) and coloum numner \(coloumn)")
+//            print("Element \(arr2DArray[row][coloumn])")
+//            print("Another way of print Element \(innerArray[coloumn])")
+//        }
+//    }
+//}
+//print(print2DArray(arr2DArray: arr2DNumbers))
+
+
+
+//func getIndexFrom2DArrayFor(element: Int, arr2DArray: [[Int]]) {
+//    for row in 0..<arr2DArray.count {
+//        let innerArray: [Int] = arr2DArray[row]
+//        for coloumn in 0..<innerArray.count //for coloumn in 0..<arr2DArray[row].count
+//        {
+//            if arr2DArray[row][coloumn] == element {
+//                print("Row number \(row) and coloum numner \(coloumn)")
+//            }
+//        }
+//    }
+//}
+//
+//print(getIndexFrom2DArrayFor(element:93, arr2DArray: arr2DNumbers))
+
+
+//func printAllElementInxexOf2DArrayLessThan(element: Int, arr2DArray: [[Int]]) {
+//    for row in 0..<arr2DArray.count {
+//        let innerArray: [Int] = arr2DArray[row]
+//        for coloumn in 0..<innerArray.count //for coloumn in 0..<arr2DArray[row].count
+//        {
+//            if arr2DArray[row][coloumn] < element {
+//                print("Row number \(row) and coloum numner \(coloumn)")
+//            }
+//        }
+//    }
+//}
+//
+//print(printAllElementInxexOf2DArrayLessThan(element:50, arr2DArray: arr2DNumbers))
+
+func printAllElementOf2DArrayLessThan(element: Int, arr2DArray: [[Int]]) {
+    for row in 0..<arr2DArray.count {
+        let innerArray: [Int] = arr2DArray[row]
+        for coloumn in 0..<innerArray.count //for coloumn in 0..<arr2DArray[row].count
+        {
+            if arr2DArray[row][coloumn] > element {
+                print("\(arr2DArray[row][coloumn]) and row =>\(row), coloumn = \(coloumn)")
+            }
+        }
+    }
+}
+
+print(printAllElementOf2DArrayLessThan(element:50, arr2DArray: arr2DNumbers))
+
+var arr2DStrings: [[String]] = [["Meet", "Mehul", "Kishan"],
+                             ["Ravina", "Kat", "Deepika", "SRK"],
+                             ["Kohli","Pandya","DK","Aray"]]
+
+func printAllElementOf2DArray(arr2DArray: [[String]]) {
+    for row in 0..<arr2DArray.count {
+        let innerArray: [String] = arr2DArray[row]
+        for coloumn in 0..<innerArray.count //for coloumn in 0..<arr2DArray[row].count
+        {
+            if arr2DArray[row][coloumn] == "Kohli" {
+                print("\(arr2DArray[row][coloumn]) and row =>\(row), coloumn = \(coloumn)")
+            }
+        }
+    }
+}
+
+print(printAllElementOf2DArray(arr2DArray: arr2DStrings))
+
+
+=====================================
+ To: r94 (RWs-Mac-Pro)
+  at Monday, 7 November 2022 at 8:35:20 AM
+-------------------------------------
+var arr2DNumbers: [[Int]] = [[4,5,6,7],
+                             [3,45,66,74,56],
+                             [43,55,67,47],
+                             [45,56,64,73],
+                             [84,90,76,7]]
+
+
+//func print2DArray(arr2DArray: [[Int]]) {
+//    for row in 0..<arr2DArray.count {
+//        let innerArray: [Int] = arr2DArray[row]
+//        for coloumn in 0..<innerArray.count //for coloumn in 0..<arr2DArray[row].count
+//        {
+//            print("Row number \(row) and coloum numner \(coloumn)")
+//            print("Element \(arr2DArray[row][coloumn])")
+//            print("Another way of print Element \(innerArray[coloumn])")
+//        }
+//    }
+//}
+//print(print2DArray(arr2DArray: arr2DNumbers))
+
+
+
+//func getIndexFrom2DArrayFor(element: Int, arr2DArray: [[Int]]) {
+//    for row in 0..<arr2DArray.count {
+//        let innerArray: [Int] = arr2DArray[row]
+//        for coloumn in 0..<innerArray.count //for coloumn in 0..<arr2DArray[row].count
+//        {
+//            if arr2DArray[row][coloumn] == element {
+//                print("Row number \(row) and coloum numner \(coloumn)")
+//            }
+//        }
+//    }
+//}
+//
+//print(getIndexFrom2DArrayFor(element:93, arr2DArray: arr2DNumbers))
+
+
+//func printAllElementInxexOf2DArrayLessThan(element: Int, arr2DArray: [[Int]]) {
+//    for row in 0..<arr2DArray.count {
+//        let innerArray: [Int] = arr2DArray[row]
+//        for coloumn in 0..<innerArray.count //for coloumn in 0..<arr2DArray[row].count
+//        {
+//            if arr2DArray[row][coloumn] < element {
+//                print("Row number \(row) and coloum numner \(coloumn)")
+//            }
+//        }
+//    }
+//}
+//
+//print(printAllElementInxexOf2DArrayLessThan(element:50, arr2DArray: arr2DNumbers))
+
+func printAllElementOf2DArrayLessThan(element: Int, arr2DArray: [[Int]]) {
+    for row in 0..<arr2DArray.count {
+        let innerArray: [Int] = arr2DArray[row]
+        for coloumn in 0..<innerArray.count //for coloumn in 0..<arr2DArray[row].count
+        {
+            if arr2DArray[row][coloumn] > element {
+                print("\(arr2DArray[row][coloumn]) and row =>\(row), coloumn = \(coloumn)")
+            }
+        }
+    }
+}
+
+print(printAllElementOf2DArrayLessThan(element:50, arr2DArray: arr2DNumbers))
+
+var arr2DStrings: [[String]] = [["Meet", "Mehul", "Kishan"],
+                             ["Ravina", "Kat", "Deepika", "SRK"],
+                             ["Kohli","Pandya","DK","Aray"]]
+
+func printAllElementOf2DArray(arr2DArray: [[String]]) {
+    for row in 0..<arr2DArray.count {
+        let innerArray: [String] = arr2DArray[row]
+        for coloumn in 0..<innerArray.count //for coloumn in 0..<arr2DArray[row].count
+        {
+            if arr2DArray[row][coloumn] == "Kohli" {
+                print("\(arr2DArray[row][coloumn]) and row =>\(row), coloumn = \(coloumn)")
+            }
+        }
+    }
+}
+
+print(printAllElementOf2DArray(arr2DArray: arr2DStrings))
+
+
+=====================================
+ From: r82 (RWs-Mac-Pro)
+  at Tuesday, 8 November 2022 at 8:19:36 AM(multi)
+-------------------------------------
+>struct Student {
+>    var id: Int
+>    var name: String
+>    var attendence: Int
+>    var age: Int
+>}
+>
+>
+>var ayushPatel: Student = Student(id: 1, name: "Ayush", attendence: 90, age: 18)
+>var ayushKakadiya: Student = Student(id: 2, name: "Ayush", attendence: 95, age: 17)
+>var ved: Student = Student(id: 3, name: "Ved", attendence: 95, age: 17)
+>var prince: Student = Student(id: 4, name: "Prince", attendence: 95, age: 14)
+>var raj: Student = Student(id: 5, name: "Raj", attendence: 96, age: 18)
+>var parth: Student = Student(id: 6, name: "Parth", attendence: 71, age: 11)
+>var dhruvin: Student = Student(id: 7, name: "Dhruvin", attendence: 50, age: 17)
+>var fena: Student = Student(id: 8, name: "Fena", attendence: 60, age: 10)
+>
+>
+>var arr7OClocKBatch: [[Student]] = [[ayushPatel,ayushKakadiya],
+>                                    [ved],
+>                                    [prince,raj],
+>                                    [parth, dhruvin],
+>                                    [fena]]
+>
+>func printAllStudent(arrStudents: [[Student]]) {
+>    
+>    for rowIndex in 0..<arrStudents.count {
+>        let rowArray: [Student] = arrStudents[rowIndex]
+>        
+>        for coloumnIndex in 0..<rowArray.count {
+>            let student: Student = rowArray[coloumnIndex]
+>            print(student)
+>//            print(student.name)
+>//            print(rowArray[coloumnIndex].name)
+>//            print(arrStudents[rowIndex][coloumnIndex].name)
+>        }
+>        
+>    }
+>}
+>
+>
+>print(printAllStudent(arrStudents: arr7OClocKBatch))
+>
+>func printIdOfAllStudent(arrStudents: [[Student]]) {
+>    
+>    for rowIndex in 0..<arrStudents.count {
+>        for coloumnIndex in 0..<arrStudents[rowIndex].count {
+>            print(arrStudents[rowIndex][coloumnIndex].id)
+>        }
+>    }
+>}
+>
+>print(printIdOfAllStudent(arrStudents: arr7OClocKBatch))
+>
+>
+>func printRowAndColoumnOf(id: Int ,arrStudents: [[Student]]) -> (Int, Int) {
+>    
+>    for rowIndex in 0..<arrStudents.count {
+>        for coloumnIndex in 0..<arrStudents[rowIndex].count {
+>            if arrStudents[rowIndex][coloumnIndex].id == id {
+>                return (rowIndex, coloumnIndex)
+>            }
+>        }
+>    }
+>    
+>    return (-1, -1)
+>}
+>
+>let (rowIndex, coloumIndex) = printRowAndColoumnOf(id: 5, arrStudents: arr7OClocKBatch)
+>print(rowIndex)
+>print(coloumIndex)
+>
+>
+>
+>func getAllStudentWhoesAgeIsLessThan(age: Int ,arrStudents: [[Student]]) -> [Student] {
+>    
+>    var nabalicStudents: [Student] = []
+>    for rowIndex in 0..<arrStudents.count {
+>        for coloumnIndex in 0..<arrStudents[rowIndex].count {
+>            if arrStudents[rowIndex][coloumnIndex].age < age {
+>                nabalicStudents.append(arrStudents[rowIndex][coloumnIndex])
+>            }
+>        }
+>    }
+>    
+>    return nabalicStudents
+>}
+>
+>print(getAllStudentWhoesAgeIsLessThan(age: 15, arrStudents: arr7OClocKBatch))
+>
+>
+>//Attendence 80 niche hoy ava badha student return
+>//Attendence 80 niche hoy ava badha student na rowIndex, coloumIndex return
+>//Return youngest student
+>//Return oldest student
+>
+
+
+=====================================
+ From: R&W ANDROID (RWs-Mac-Pro)
+  at Tuesday, 8 November 2022 at 8:19:55 AM
+-------------------------------------
+struct Student {
+    var id: Int
+    var name: String
+    var attendence: Int
+    var age: Int
+}
+
+
+var ayushPatel: Student = Student(id: 1, name: "Ayush", attendence: 90, age: 18)
+var ayushKakadiya: Student = Student(id: 2, name: "Ayush", attendence: 95, age: 17)
+var ved: Student = Student(id: 3, name: "Ved", attendence: 95, age: 17)
+var prince: Student = Student(id: 4, name: "Prince", attendence: 95, age: 14)
+var raj: Student = Student(id: 5, name: "Raj", attendence: 96, age: 18)
+var parth: Student = Student(id: 6, name: "Parth", attendence: 71, age: 11)
+var dhruvin: Student = Student(id: 7, name: "Dhruvin", attendence: 50, age: 17)
+var fena: Student = Student(id: 8, name: "Fena", attendence: 60, age: 10)
+
+
+var arr7OClocKBatch: [[Student]] = [[ayushPatel,ayushKakadiya],
+                                    [ved],
+                                    [prince,raj],
+                                    [parth, dhruvin],
+                                    [fena]]
+
+func printAllStudent(arrStudents: [[Student]]) {
+    
+    for rowIndex in 0..<arrStudents.count {
+        let rowArray: [Student] = arrStudents[rowIndex]
+        
+        for coloumnIndex in 0..<rowArray.count {
+            let student: Student = rowArray[coloumnIndex]
+            print(student)
+//            print(student.name)
+//            print(rowArray[coloumnIndex].name)
+//            print(arrStudents[rowIndex][coloumnIndex].name)
+        }
+        
+    }
+}
+
+
+print(printAllStudent(arrStudents: arr7OClocKBatch))
+
+func printIdOfAllStudent(arrStudents: [[Student]]) {
+    
+    for rowIndex in 0..<arrStudents.count {
+        for coloumnIndex in 0..<arrStudents[rowIndex].count {
+            print(arrStudents[rowIndex][coloumnIndex].id)
+        }
+    }
+}
+
+print(printIdOfAllStudent(arrStudents: arr7OClocKBatch))
+
+
+func printRowAndColoumnOf(id: Int ,arrStudents: [[Student]]) -> (Int, Int) {
+    
+    for rowIndex in 0..<arrStudents.count {
+        for coloumnIndex in 0..<arrStudents[rowIndex].count {
+            if arrStudents[rowIndex][coloumnIndex].id == id {
+                return (rowIndex, coloumnIndex)
+            }
+        }
+    }
+    
+    return (-1, -1)
+}
+
+let (rowIndex, coloumIndex) = printRowAndColoumnOf(id: 5, arrStudents: arr7OClocKBatch)
+print(rowIndex)
+print(coloumIndex)
+
+
+
+func getAllStudentWhoesAgeIsLessThan(age: Int ,arrStudents: [[Student]]) -> [Student] {
+    
+    var nabalicStudents: [Student] = []
+    for rowIndex in 0..<arrStudents.count {
+        for coloumnIndex in 0..<arrStudents[rowIndex].count {
+            if arrStudents[rowIndex][coloumnIndex].age < age {
+                nabalicStudents.append(arrStudents[rowIndex][coloumnIndex])
+            }
+        }
+    }
+    
+    return nabalicStudents
+}
+
+print(getAllStudentWhoesAgeIsLessThan(age: 15, arrStudents: arr7OClocKBatch))
+
+
+//Attendence 80 niche hoy ava badha student return
+//Attendence 80 niche hoy ava badha student na rowIndex, coloumIndex return
+//Return youngest student
+//Return oldest student
+
+
+
+=====================================
+ From: r94 (RWs-Mac-Pro)
+  at Tuesday, 8 November 2022 at 9:01:46 AM
+-------------------------------------
+struct Student {
+    var id: Int
+    var name: String
+    var attendence: Int
+    var age: Int
+}
+
+
+var ayushPatel: Student = Student(id: 1, name: "Ayush", attendence: 90, age: 18)
+var ayushKakadiya: Student = Student(id: 2, name: "Ayush", attendence: 95, age: 17)
+var ved: Student = Student(id: 3, name: "Ved", attendence: 95, age: 17)
+var prince: Student = Student(id: 4, name: "Prince", attendence: 95, age: 14)
+var raj: Student = Student(id: 5, name: "Raj", attendence: 96, age: 18)
+var parth: Student = Student(id: 6, name: "Parth", attendence: 71, age: 11)
+var dhruvin: Student = Student(id: 7, name: "Dhruvin", attendence: 50, age: 17)
+var fena: Student = Student(id: 8, name: "Fena", attendence: 60, age: 10)
+
+
+var arr7OClocKBatch: [[Student]] = [[ayushPatel,ayushKakadiya],
+                                    [ved],
+                                    [prince,raj],
+                                    [parth, dhruvin],
+                                   [fena]]
+
+func printAllStudent(arrStudents: [[Student]]) {
+
+    for rowIndex in 0..<arrStudents.count {
+        let rowArray: [Student] = arrStudents[rowIndex]
+
+        for coloumnIndex in 0..<rowArray.count {
+            let student: Student = rowArray[coloumnIndex]
+            print(student)
+           print(student.name)
+         print(rowArray[coloumnIndex].name)
+           print(arrStudents[rowIndex][coloumnIndex].name)
+        }
+
+    }
+}
+
+
+print(printAllStudent(arrStudents: arr7OClocKBatch))
+
+func printIdOfAllStudent(arrStudents: [[Student]]) {
+
+    for rowIndex in 0..<arrStudents.count {
+        for coloumnIndex in 0..<arrStudents[rowIndex].count {
+            print(arrStudents[rowIndex][coloumnIndex].id)
+        }
+    }
+}
+
+print(printIdOfAllStudent(arrStudents: arr7OClocKBatch))
+
+
+func printRowAndColoumnOf(id: Int ,arrStudents: [[Student]]) -> (Int, Int) {
+
+    for rowIndex in 0..<arrStudents.count {
+        for coloumnIndex in 0..<arrStudents[rowIndex].count {
+           if arrStudents[rowIndex][coloumnIndex].id == id {
+               return (rowIndex, coloumnIndex)
+            }
+        }
+    }
+
+    return (-1, -1)
+}
+
+let (rowIndex, coloumIndex) = printRowAndColoumnOf(id: 5, arrStudents: arr7OClocKBatch)
+print(rowIndex)
+print(coloumIndex)
+
+
+
+func getAllStudentWhoesAgeIsLessThan(age: Int ,arrStudents: [[Student]]) -> [Student] {
+
+    var nabalicStudents: [Student] = []
+    for rowIndex in 0..<arrStudents.count {
+        for coloumnIndex in 0..<arrStudents[rowIndex].count {
+            if arrStudents[rowIndex][coloumnIndex].age < age {
+                nabalicStudents.append(arrStudents[rowIndex][coloumnIndex])
+            }
+        }
+    }
+
+    return nabalicStudents
+}
+
+print(getAllStudentWhoesAgeIsLessThan(age: 15, arrStudents: arr7OClocKBatch))
+
+
+=====================================
+ From: r92 (RWs-Mac-Pro)
+  at Monday, 1 January 2018 at 5:52:30 AM
+-------------------------------------
+//1
+
+
+func evenOrOdd(number: Int) {
+    
+    if number % 2 == 0 {
+        print("even")
+    }else{
+        print("Odd")
+    }
+    
+}
+
+evenOrOdd(number: 56)
+
+
+//2
+
+
+
+
+var value1: Int = 64
+var value2: Int = 5034
+var value3: Int = 123
+var max: Int = 0
+
+func maximumNumber () {
+    if value1 > value2
+    {
+        if value1 > value3
+        {
+            max = value1
+        } else
+         {
+            max = value3
+         }
+    } else
+    {
+        if value2 > value3
+         {
+            max = value2
+         }else
+         {
+             max = value3
+         }
+    }
+}
+
+maximumNumber()
+
+
+//3
+
+
+var year: Int = 2008
+
+func leapYearOrNot (){
+    if year % 400 == 0
+    {
+         print("\(year) is a leap year")
+    } else if year % 100 == 0 {
+         print("\(year) is not a leap year")
+    } else if year % 4 == 0 {
+         print("\(year) is a leap year")
+    } else {
+         print("\(year) is not a leap year")
+        
+    }
+}
+
+
+leapYearOrNot()
+
+
+//5
+
+
+
+var months: Int = 9
+
+func daysInMonth () {
+    
+      if month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12
+      {
+         print("31 Days")
+      }else if month == 4 || month == 6 || month == 9 || month == 11
+      {
+          print("30 Days")
+      }else if month == 2
+      {
+          print("28 - 29 Days")
+      }else
+      {
+          print("Invalid Month")
+      }
+}
+
+
+
+daysInMonth()
+
+
+
+//6
+
+
+var no1: Float = 1
+var no2: Float = 1
+var no3: Float = 1
+var no4: Float = 1
+var root1: Float = 20
+var root2: Float = 20
+
+
+func rootsAndQuadraicEquation (){
+    no4 = no2 * no2 - 4 * no1 * no3
+    
+    if no4 > 0{
+        root1 = -no2+sqrt(no4) / (2 * no1)
+        root2 = -no2-sqrt(no4) / (2 * no1)
+        print("The real root = \(root1),\(root2)")
+    }else if no4 == 0 {
+        root1 = -no2/(2*no1)
+        root2 = -no2/(2*no1)
+        print("root are equal = \(root1),\(root2)")
+    }else{
+        print("Root are imaginary")
+    }
+}
+
+
+rootsAndQuadraicEquation()
+
+
+
+//8
+
+var week: Int = 5
+
+func namesOfWeek (){
+    
+switch(week)
+{
+case 1:
+    print("Monday");
+    break;
+case 2:
+    print("Tuesday");
+    break;
+case 3:
+    print("Wednesday");
+    break;
+case 4:
+    print("Thursday");
+    break;
+case 5:
+    print("Friday");
+    break;
+case 6:
+    print("Saturday");
+    break;
+case 7:
+    print("Sunday");
+    break;
+default:
+    print("Invalid input! Please enter week number between 1-7.");
+}
+    
+}
+
+
+namesOfWeek()
+
+
+
+
+//9
+
+
+
+
+var month: Int = 6
+
+func totalNumberOfDays (){
+    
+switch(month)
+{
+case 1:
+    print("31 days");
+    break;
+case 2:
+    print("28/29 days");
+    break;
+case 3:
+    print("31 days");
+    break;
+case 4:
+    print("30 days");
+    break;
+case 5:
+    print("31 days");
+    break;
+case 6:
+    print("30 days");
+    break;
+case 7:
+    print("31 days");
+    break;
+case 8:
+    print("31 days");
+    break;
+case 9:
+    print("30 days");
+    break;
+case 10:
+    print("31 days");
+    break;
+case 11:
+    print("30 days");
+    break;
+case 12:
+    print("31 days");
+    break;
+default:
+    print("Invalid input! Please enter month number between 1-12");
+    
+}
+
+}
+
+
+totalNumberOfDays()
+
+
+
+
+//10
+
+
+var choice: Int = 3
+
+func calculator (firstNum:Int,secondNum:Int) {
+    
+   
+    switch choice
+    {
+    case 1:
+        firstNum+secondNum
+        break;
+    case 2:
+        firstNum-secondNum
+        break;
+    case 3:
+        firstNum*secondNum
+        break;
+    case 4:
+        firstNum/secondNum
+        break;
+        
+    default:
+        print("Invalid input! Please enter week number between 1-7.");
+    }
+    
+}
+
+calculator(firstNum: 7, secondNum: 0)
+
+
+
+
+=====================================
+ From: R87 (RWs-Mac-Pro)
+  at Friday, 11 November 2022 at 8:44:36 AM(multi)(sealed)
+-------------------------------------
+Archives
+April 2020
+September 2019
+July 2017
+June 2017
+May 2017
+March 2017
+February 2017
+January 2017
+November 2016
+October 2016
+March 2016
+February 2016
+November 2015
+September 2015
+August 2015
+July 2015
+June 2015
+May 2015
+January 2015
+December 2014
+November 2014
+October 2014
+September 2014
+July 2014
+June 2014
+
+
+=====================================
+ From: R&W ANDROID (RWs-Mac-Pro)
+  at Wednesday, 3 January 2024 at 1:34:53 PM
+-------------------------------------
+import UIKit
+
+var greeting = "Hello, playground"
+
+
+class Dada {
+    
+    var numberOfBikes: Int = 10
+    var numberOfPalaces: Int = 2
+    
+    
+    func playKusti() {
+        print("Style1")
+        print("Style2")
+        print("Style3")
+        print("Style4")
+    }
+    
+    
+    func driveCar() {
+        print("40-60 speed")
+        print("Kishore kumar song")
+        print("No AC")
+    }
+}
+
+
+class Papa: Dada {
+    var numberOfCars: Int = 22
+    override func playKusti() {
+        print("Style5")
+    }
+    
+    
+    override func driveCar() {
+        print("60-80 speed")
+        print("Udit Narayan song")
+        print("AC level 3")
+    }
+}
+
+class Child: Papa {
+    var numberOfShoes: Int = 220
+    
+
+    override func driveCar() {
+        print(super.playKusti())
+        print(super.numberOfCars)
+        print("100-150 speed")
+        print("Dimitri vegus song")
+        print("AC level 1")
+        print("Red bull")
+        print("Friends")
+    }
+}
+
+let tamaraPapa: Papa = Papa()
+let maraPapa: Papa = tamaraPapa
+tamaraPapa.numberOfCars = 32
+
+print(tamaraPapa.numberOfBikes)
+print(maraPapa.numberOfCars)
+print(maraPapa.playKusti())
+print(maraPapa.driveCar())
+
+
+let papaNoLadlo: Child = Child()
+
+print(papaNoLadlo.driveCar())
+print(papaNoLadlo.numberOfPalaces)
+
+
+class Engineer {
+    
+    //Circle
+    func calculateArea(radius: Float) -> Float {
+        return 3.14*radius*radius
+    }
+    
+    
+    //Rectangle
+    func calculateArea(length: Float, width:Float) -> Float {
+        return length*width
+    }
+    
+    func calculateArea(length: Int, width: Int) -> Int {
+        return length*width
+    }
+    
+    //Square
+    func calculateArea(length: Float) -> Float {
+        return length*length
+    }
+    
+}
+
+
+let engineer: Engineer = Engineer()
+engineer.calculateArea(length: 12)
+engineer.calculateArea(length: 23, width: 24)
+
+
+=====================================
+ From: R&W ANDROID (RWs-Mac-Pro)
+  at Wednesday, 3 January 2024 at 1:37:50 PM
+-------------------------------------
+import UIKit
+
+var greeting = "Hello, playground"
+
+
+class Dada {
+    
+    var numberOfBikes: Int = 10
+    var numberOfPalaces: Int = 2
+    
+    
+    func playKusti() {
+        print("Style1")
+        print("Style2")
+        print("Style3")
+        print("Style4")
+    }
+    
+    
+    func driveCar() {
+        print("40-60 speed")
+        print("Kishore kumar song")
+        print("No AC")
+    }
+}
+
+
+class Papa: Dada {
+    var numberOfCars: Int = 22
+    override func playKusti() {
+        print("Style5")
+    }
+    
+    
+    override func driveCar() {
+        print("60-80 speed")
+        print("Udit Narayan song")
+        print("AC level 3")
+    }
+}
+
+class Child: Papa {
+    var numberOfShoes: Int = 220
+    
+
+    override func driveCar() {
+        print(super.playKusti())
+        print(super.numberOfCars)
+        print("100-150 speed")
+        print("Dimitri vegus song")
+        print("AC level 1")
+        print("Red bull")
+        print("Friends")
+    }
+}
+
+let tamaraPapa: Papa = Papa()
+let maraPapa: Papa = tamaraPapa
+tamaraPapa.numberOfCars = 32
+
+print(tamaraPapa.numberOfBikes)
+print(maraPapa.numberOfCars)
+print(maraPapa.playKusti())
+print(maraPapa.driveCar())
+
+
+let papaNoLadlo: Child = Child()
+
+print(papaNoLadlo.driveCar())
+print(papaNoLadlo.numberOfPalaces)
+
+
+class Engineer {
+    
+    //Circle
+    func calculateArea(radius: Float) -> Float {
+        return 3.14*radius*radius
+    }
+    
+    
+    //Rectangle
+    func calculateArea(length: Float, width:Float) -> Float {
+        return length*width
+    }
+    
+    func calculateArea(length: Int, width: Int) -> Int {
+        return length*width
+    }
+    
+    //Square
+    func calculateArea(length: Float) -> Float {
+        return length*length
+    }
+    
+}
+
+
+let engineer: Engineer = Engineer()
+engineer.calculateArea(length: 12)
+engineer.calculateArea(length: 23, width: 24)
+
+
+=====================================
+ To: r93 (RWs-Mac-Pro)
+  at Wednesday, 3 January 2024 at 1:38:11 PM
+-------------------------------------
+
+
+=====================================
+ To: r93 (RWs-Mac-Pro)
+  at Wednesday, 3 January 2024 at 1:38:38 PM
+-------------------------------------
+import UIKit
+
+var greeting = "Hello, playground"
+
+
+class Dada {
+    
+    var numberOfBikes: Int = 10
+    var numberOfPalaces: Int = 2
+    
+    
+    func playKusti() {
+        print("Style1")
+        print("Style2")
+        print("Style3")
+        print("Style4")
+    }
+    
+    
+    func driveCar() {
+        print("40-60 speed")
+        print("Kishore kumar song")
+        print("No AC")
+    }
+}
+
+
+class Papa: Dada {
+    var numberOfCars: Int = 22
+    override func playKusti() {
+        print("Style5")
+    }
+    
+    
+    override func driveCar() {
+        print("60-80 speed")
+        print("Udit Narayan song")
+        print("AC level 3")
+    }
+}
+
+class Child: Papa {
+    var numberOfShoes: Int = 220
+    
+
+    override func driveCar() {
+        print(super.playKusti())
+        print(super.numberOfCars)
+        print("100-150 speed")
+        print("Dimitri vegus song")
+        print("AC level 1")
+        print("Red bull")
+        print("Friends")
+    }
+}
+
+let tamaraPapa: Papa = Papa()
+let maraPapa: Papa = tamaraPapa
+tamaraPapa.numberOfCars = 32
+
+print(tamaraPapa.numberOfBikes)
+print(maraPapa.numberOfCars)
+print(maraPapa.playKusti())
+print(maraPapa.driveCar())
+
+
+let papaNoLadlo: Child = Child()
+
+print(papaNoLadlo.driveCar())
+print(papaNoLadlo.numberOfPalaces)
+
+
+class Engineer {
+    
+    //Circle
+    func calculateArea(radius: Float) -> Float {
+        return 3.14*radius*radius
+    }
+    
+    
+    //Rectangle
+    func calculateArea(length: Float, width:Float) -> Float {
+        return length*width
+    }
+    
+    func calculateArea(length: Int, width: Int) -> Int {
+        return length*width
+    }
+    
+    //Square
+    func calculateArea(length: Float) -> Float {
+        return length*length
+    }
+    
+}
+
+
+let engineer: Engineer = Engineer()
+engineer.calculateArea(length: 12)
+engineer.calculateArea(length: 23, width: 24)
+
+
+=====================================
+ From: r88 (RWs-Mac-Pro)
+  at Wednesday, 3 January 2024 at 1:41:08 PM
+-------------------------------------
+mokal
+
+=====================================
+ From: r93 (RWs-Mac-Pro)
+  at Wednesday, 3 January 2024 at 1:41:52 PM(multi)
+-------------------------------------
+
+
+=====================================
+ From: r93 (RWs-Mac-Pro)
+  at Wednesday, 3 January 2024 at 1:42:24 PM(multi)
+-------------------------------------
+class Dada {
+    
+    var numberOfBikes: Int = 10
+    var numberOfPalaces: Int = 2
+    
+    
+    func playKusti() {
+        print("Style1")
+        print("Style2")
+        print("Style3")
+        print("Style4")
+    }
+    
+    
+    func driveCar() {
+        print("40-60 speed")
+        print("Kishore kumar song")
+        print("No AC")
+    }
+}
+
+
+class Papa: Dada {
+    var numberOfCars: Int = 22
+    override func playKusti() {
+        print("Style5")
+    }
+    
+    
+    override func driveCar() {
+        print("60-80 speed")
+        print("Udit Narayan song")
+        print("AC level 3")
+    }
+}
+
+class Child: Papa {
+    var numberOfShoes: Int = 220
+    
+
+    override func driveCar() {
+        print(super.playKusti())
+        print(super.numberOfCars)
+        print("100-150 speed")
+        print("Dimitri vegus song")
+        print("AC level 1")
+        print("Red bull")
+        print("Friends")
+    }
+}
+
+let tamaraPapa: Papa = Papa()
+let maraPapa: Papa = tamaraPapa
+tamaraPapa.numberOfCars = 32
+
+print(tamaraPapa.numberOfBikes)
+print(maraPapa.numberOfCars)
+print(maraPapa.playKusti())
+print(maraPapa.driveCar())
+
+
+let papaNoLadlo: Child = Child()
+
+print(papaNoLadlo.driveCar())
+print(papaNoLadlo.numberOfPalaces)
+
+
+class Engineer {
+    
+    //Circle
+    func calculateArea(radius: Float) -> Float {
+        return 3.14*radius*radius
+    }
+    
+    
+    //Rectangle
+    func calculateArea(length: Float, width:Float) -> Float {
+        return length*width
+    }
+    
+    func calculateArea(length: Int, width: Int) -> Int {
+        return length*width
+    }
+    
+    //Square
+    func calculateArea(length: Float) -> Float {
+        return length*length
+    }
+    
+}
+
+
+let engineer: Engineer = Engineer()
+engineer.calculateArea(length: 12)
+engineer.calculateArea(length: 23, width: 24)
+
+
+=====================================
+ From: r94 (RWs-Mac-Pro)
+  at Wednesday, 3 January 2024 at 1:59:37 PM
+-------------------------------------
+class Player {
+  let name: String
+  init(name: String) {
+    self.name = name
+  }
+  func play() { }
+}
+class Batsman: Player {
+  override func play() {
+    bat()
+  }
+  private func bat() {
+    print("\(name) is batting ")
+  }
+}
+class Bowler: Player {
+  override func play() {
+    bowl()
+  }
+  private func bowl() {
+    print("\(name) is bowling ")
+  }
+}
+class CricketTeam {
+  let name: String
+  let team: [Player]
+  init(name: String, team: [Player]) {
+    self.name = name
+    self.team = team
+  }
+  func play() {
+    team.forEach { $0.play() }
+  }
+}
+let rohitSharma = Batsman(name: "Rohit Sharma")
+let bumrah = Bowler(name: "Jasprit Bumrah")
+let indianTeam = CricketTeam(name: "India", team: [rohitSharma, bumrah])
+indianTeam.play()
+
+
+//----------------------------------------------------------------------
+
+
+class Maths {
+    
+
+    let a: Int!
+    let b: Int!
+    private var result: Int?
+    
+
+    init(a: Int,b: Int) {
+        self.a = a
+        self.b = b
+    }
+    
+
+    func add() {
+        result = a + b
+    }
+    
+
+    func displayResult() {
+        print("Result - \(result)")
+    }
+}
+let calculation = Maths(a: 3, b: 3)
+calculation.add()
+calculation.displayResult()
+
+
+//------------------------------------------------------------------------------
+
+
+class Animal {
+
+  // properties and method of the parent class
+  var name: String = ""
+
+  func eat() {
+    print("I can eat")
+  }
+}
+
+// inherit from Animal
+class Dog: Animal {
+
+  // new method in subclass
+  func display() {
+
+    // access name property of superclass
+    print("My name is ", name);
+  }
+}
+
+// create an object of the subclass
+var labrador = Dog()
+
+// access superclass property and method
+labrador.name = "Rohu"
+labrador.eat()
+
+// call subclass method
+labrador.display()
+
+
+
+
+
+=====================================
+ To: r94 (RWs-Mac-Pro)
+  at Wednesday, 3 January 2024 at 2:00:33 PM
+-------------------------------------
+class Dada {
+    
+    var numberOfBikes: Int = 10
+    var numberOfPalaces: Int = 2
+    
+    
+    func playKusti() {
+        print("Style1")
+        print("Style2")
+        print("Style3")
+        print("Style4")
+    }
+    
+    
+    func driveCar() {
+        print("40-60 speed")
+        print("Kishore kumar song")
+        print("No AC")
+    }
+}
+
+
+class Papa: Dada {
+    var numberOfCars: Int = 22
+    override func playKusti() {
+        print("Style5")
+    }
+    
+    
+    override func driveCar() {
+        print("60-80 speed")
+        print("Udit Narayan song")
+        print("AC level 3")
+    }
+}
+
+class Child: Papa {
+    var numberOfShoes: Int = 220
+    
+
+    override func driveCar() {
+        print(super.playKusti())
+        print(super.numberOfCars)
+        print("100-150 speed")
+        print("Dimitri vegus song")
+        print("AC level 1")
+        print("Red bull")
+        print("Friends")
+    }
+}
+
+let tamaraPapa: Papa = Papa()
+let maraPapa: Papa = tamaraPapa
+tamaraPapa.numberOfCars = 32
+
+print(tamaraPapa.numberOfBikes)
+print(maraPapa.numberOfCars)
+print(maraPapa.playKusti())
+print(maraPapa.driveCar())
+
+
+let papaNoLadlo: Child = Child()
+
+print(papaNoLadlo.driveCar())
+print(papaNoLadlo.numberOfPalaces)
+
+
+class Engineer {
+    
+    //Circle
+    func calculateArea(radius: Float) -> Float {
+        return 3.14*radius*radius
+    }
+    
+    
+    //Rectangle
+    func calculateArea(length: Float, width:Float) -> Float {
+        return length*width
+    }
+    
+    func calculateArea(length: Int, width: Int) -> Int {
+        return length*width
+    }
+    
+    //Square
+    func calculateArea(length: Float) -> Float {
+        return length*length
+    }
+    
+}
+
+
+let engineer: Engineer = Engineer()
+engineer.calculateArea(length: 12)
+engineer.calculateArea(length: 23, width: 24)
+
+
+=====================================
+ To: r94 (RWs-Mac-Pro)
+  at Wednesday, 3 January 2024 at 2:52:13 PM
+-------------------------------------
+class Animal {
+    var speedOfRun: Int = 4
+    var etingFood:String = "2kg"
+    
+    func kingness() {
+        print("forst1")
+        print("forst2")
+    }
+    func eating () {
+        print("40-50 kg")
+        print("voice of line")
+        
+    }
+}
+class ChildAnimal: Animal {
+    var BabyChild: Int = 2
+    override func kingness() {
+        print("forst 3")
+    }
+    override func eating() {
+        print("10-20kg")
+        print("voice of child line")
+        
+    }
+}
+
+class Child2: ChildAnimal {
+    var numberOfClothes: Int = 3
+    override func eating() {
+        print(super.kingness())
+        print(super.eating)
+    }
+}
+let childDad: ChildAnimal = ChildAnimal()
+let childDad2: ChildAnimal = childDad
+
+ childDad.BabyChild = 1
+print(childDad.speedOfRun)
+print(childDad2.kingness())
+
+let ladloAnimal: Child2 = Child2()
+print(ladloAnimal.eating())
+print(ladloAnimal.etingFood = "2kg")
+
+
+
+=====================================
+ From: R&W ANDROID (RWs-Mac-Pro)
+  at Sunday, 22 January 2034 at 9:00:38 AM
+-------------------------------------
+
+
+=====================================
+ From: R&W ANDROID (RWs-Mac-Pro)
+  at Sunday, 22 January 2034 at 9:01:07 AM
+-------------------------------------
+import UIKit
+
+var greeting = "Hello, playground"
+
+
+class Math {
+    
+    var numberOne: Int
+    var numberTwo: Int
+    //private(set) var result: Int = 0
+    private var result: Int = 0
+    init(numberOne: Int, numberTwo: Int) {
+        self.numberOne = numberOne
+        self.numberTwo = numberTwo
+        
+    }
+    
+    
+    func addition() {
+        result = numberOne + numberTwo
+    }
+    
+    
+    func substration() {
+        result = numberOne - numberTwo
+    }
+    
+    func printResult() {
+        print("Result : \(result)")
+    }
+    
+    fileprivate func getResult() -> Int {
+        return result
+    }
+}
+
+
+let basicMath: Math = Math(numberOne: 20, numberTwo: 10)
+basicMath.addition()
+basicMath.printResult()
+
+basicMath.numberTwo = 50
+basicMath.addition()
+let result1 = basicMath.getResult()
+print(result1)
+
+class Temp {
+    func GetAddtion() {
+        let addition: Math = Math(numberOne: 50, numberTwo: 60)
+        
+    }
+}
+
+
+=====================================
+ To: r81 (RWs-Mac-Pro)
+  at Sunday, 22 January 2034 at 9:01:37 AM
+-------------------------------------
+import UIKit
+
+var greeting = "Hello, playground"
+
+
+class Math {
+    
+    var numberOne: Int
+    var numberTwo: Int
+    //private(set) var result: Int = 0
+    private var result: Int = 0
+    init(numberOne: Int, numberTwo: Int) {
+        self.numberOne = numberOne
+        self.numberTwo = numberTwo
+        
+    }
+    
+    
+    func addition() {
+        result = numberOne + numberTwo
+    }
+    
+    
+    func substration() {
+        result = numberOne - numberTwo
+    }
+    
+    func printResult() {
+        print("Result : \(result)")
+    }
+    
+    fileprivate func getResult() -> Int {
+        return result
+    }
+}
+
+
+let basicMath: Math = Math(numberOne: 20, numberTwo: 10)
+basicMath.addition()
+basicMath.printResult()
+
+basicMath.numberTwo = 50
+basicMath.addition()
+let result1 = basicMath.getResult()
+print(result1)
+
+class Temp {
+    func GetAddtion() {
+        let addition: Math = Math(numberOne: 50, numberTwo: 60)
+        
+    }
+}
+
+
+=====================================
+ To: r93 (RWs-Mac-Pro)
+  at Sunday, 22 January 2034 at 9:07:04 AM
+-------------------------------------
+class Math {
+          
+          var numberOne: Int
+          var numberTwo: Int
+          
+          private var result: Int = 0
+          init(numberOne: Int, numberTwo: Int) {
+              self.numberOne = numberOne
+              self.numberTwo = numberTwo
+              
+          }
+          
+          
+          func addition() {
+              result = numberOne + numberTwo
+          }
+          
+          
+          func substration() {
+              result = numberOne - numberTwo
+          }
+          
+          func printResult() {
+              print("Result : \(result)")
+          }
+          
+          fileprivate func getResult() -> Int {
+              return result
+          }
+      }
+
+
+      let basicMath: Math = Math(numberOne: 20, numberTwo: 10)
+      basicMath.addition()
+      basicMath.printResult()
+
+      basicMath.numberTwo = 50
+      basicMath.addition()
+      let result1 = basicMath.getResult()
+      print(result1)
+
+      class Temp {
+          func GetAddtion() {
+              let addition: Math = Math(numberOne: 50, numberTwo: 60)
+              
+          }
+      }
+
+
+      
+
+
+=====================================
+ To: r92 (RWs-Mac-Pro)
+  at Sunday, 22 January 2034 at 9:07:12 AM
+-------------------------------------
+class Math {
+          
+          var numberOne: Int
+          var numberTwo: Int
+          
+          private var result: Int = 0
+          init(numberOne: Int, numberTwo: Int) {
+              self.numberOne = numberOne
+              self.numberTwo = numberTwo
+              
+          }
+          
+          
+          func addition() {
+              result = numberOne + numberTwo
+          }
+          
+          
+          func substration() {
+              result = numberOne - numberTwo
+          }
+          
+          func printResult() {
+              print("Result : \(result)")
+          }
+          
+          fileprivate func getResult() -> Int {
+              return result
+          }
+      }
+
+
+      let basicMath: Math = Math(numberOne: 20, numberTwo: 10)
+      basicMath.addition()
+      basicMath.printResult()
+
+      basicMath.numberTwo = 50
+      basicMath.addition()
+      let result1 = basicMath.getResult()
+      print(result1)
+
+      class Temp {
+          func GetAddtion() {
+              let addition: Math = Math(numberOne: 50, numberTwo: 60)
+              
+          }
+      }
+
+
+      
+
+
+=====================================
+ To: r94 (RWs-Mac-Pro)
+  at Sunday, 22 January 2034 at 9:07:35 AM
+-------------------------------------
+class Math {
+          
+          var numberOne: Int
+          var numberTwo: Int
+          
+          private var result: Int = 0
+          init(numberOne: Int, numberTwo: Int) {
+              self.numberOne = numberOne
+              self.numberTwo = numberTwo
+              
+          }
+          
+          
+          func addition() {
+              result = numberOne + numberTwo
+          }
+          
+          
+          func substration() {
+              result = numberOne - numberTwo
+          }
+          
+          func printResult() {
+              print("Result : \(result)")
+          }
+          
+          fileprivate func getResult() -> Int {
+              return result
+          }
+      }
+
+
+      let basicMath: Math = Math(numberOne: 20, numberTwo: 10)
+      basicMath.addition()
+      basicMath.printResult()
+
+      basicMath.numberTwo = 50
+      basicMath.addition()
+      let result1 = basicMath.getResult()
+      print(result1)
+
+      class Temp {
+          func GetAddtion() {
+              let addition: Math = Math(numberOne: 50, numberTwo: 60)
+              
+          }
+      }
+
+
+      
+
+
+=====================================
+ To: r89 (RWs-Mac-Pro)
+  at Wednesday, 16 November 2022 at 9:30:07 AM
+-------------------------------------
+class Math {
+          
+          var numberOne: Int
+          var numberTwo: Int
+          
+          private var result: Int = 0
+          init(numberOne: Int, numberTwo: Int) {
+              self.numberOne = numberOne
+              self.numberTwo = numberTwo
+            
+          }
+          
+          
+          func addition() {
+              result = numberOne + numberTwo
+          }
+          
+          
+          func substration() {
+              result = numberOne - numberTwo
+          }
+          
+          func printResult() {
+              print("Result : \(result)")
+          }
+          
+          fileprivate func getResult() -> Int {
+              return result
+          }
+      }
+
+
+      let basicMath: Math = Math(numberOne: 20, numberTwo: 10)
+      basicMath.addition()
+      basicMath.printResult()
+
+      basicMath.numberTwo = 50
+      basicMath.addition()
+      let result1 = basicMath.getResult()
+      print(result1)
+
+      class Temp {
+          func GetAddtion() {
+              let addition: Math = Math(numberOne: 50, numberTwo: 60)
+              
+          }
+      }
+
+
+      
+
+
+=====================================
+ To: r89 (RWs-Mac-Pro)
+  at Wednesday, 16 November 2022 at 9:30:19 AM
+-------------------------------------
+class Math {
+          
+          var numberOne: Int
+          var numberTwo: Int
+          
+          private var result: Int = 0
+          init(numberOne: Int, numberTwo: Int) {
+              self.numberOne = numberOne
+              self.numberTwo = numberTwo
+            
+          }
+          
+          
+          func addition() {
+              result = numberOne + numberTwo
+          }
+          
+          
+          func substration() {
+              result = numberOne - numberTwo
+          }
+          
+          func printResult() {
+              print("Result : \(result)")
+          }
+          
+          fileprivate func getResult() -> Int {
+              return result
+          }
+      }
+
+
+      let basicMath: Math = Math(numberOne: 20, numberTwo: 10)
+      basicMath.addition()
+      basicMath.printResult()
+
+      basicMath.numberTwo = 50
+      basicMath.addition()
+      let result1 = basicMath.getResult()
+      print(result1)
+
+      class Temp {
+          func GetAddtion() {
+              let addition: Math = Math(numberOne: 50, numberTwo: 60)
+              
+          }
+      }
+
+
+      
+
+
+=====================================
+ From: r96 (RWs-Mac-Pro)
+  at Friday, 22 November 2024 at 8:57:14 AM
+-------------------------------------
+// 1). function
+        // -> function is set of line of code which perform specific task.
+        // there are four types of function.
+        //    with return
+        //     ->func withreturn() -> Int {}
+
+        //    without return
+        //     ->func withutreturn(age: Int) {}
+
+        //    with parameter
+        //     ->func withparameter(age: Int) {}
+
+        //    without parameter
+        //     -> func withoutparameter() -> Int {}
+
+// 2). dafenation
+        // class : -> collection of the datamember and member function.
+        // object : -> insques of class
+        // array : -> array is dynamic collection of orderd value.
+        //parameter : -> parameter is
+        //return type : ->which is data type  of return value.
+ 
+//3) .....
+//struct Chair{
+//    var nameOfCompany: String
+//    var colourOfProduct: String
+//    var price: Int
+//    var isExpensive: Bool
+//}
+//var flatChair: Chair = Chair(nameOfCompany: "vasundhara", colourOfProduct: "brown", price: 1200, isExpensive: true)
+//var ovelChair: Chair = Chair(nameOfCompany: "meesho", colourOfProduct: "cream", price: 100, isExpensive: false)
+//var squreChair: Chair = Chair(nameOfCompany: "mintra", colourOfProduct: "blue", price: 900, isExpensive: true)
+//
+//
+//4) ...
+//var arrChair: [Chair] = [flatChair,ovelChair,squreChair]
+//func apdatePrice( nameOfCompany: String, apdatePrice: Int) -> Int {
+//    for index in 0..<arrChair.count {
+//        if arrChair[index].nameOfCompany == nameOfCompany {
+//         arrChair[index].price = apdatePrice
+//        }
+//    }
+//    return -1
+//}
+//print(apdatePrice(nameOfCompany: "Meesho", apdatePrice: 500))
+//
+
+
+//5).......
+//  1) Type casting
+//   -> type casting in changing the store vale.
+//      there are two types os type casting.
+//      1) hight to low
+//      2) low to hight
+
+//  2) variable
+//   -> variable is decler the value and  data
+//      ex:- var nameOfTheCompany: String = "zara"
+//      variable dicler two types
+//      1)-> let (no change value)
+//      2)-> var (change the value)
+
+//  3) data type
+//  -> data type is used for defference types of data
+//     ex:- Int, Float, String, Double, Bool
+
+
+=====================================
+ From: r92 (RWs-Mac-Pro)
+  at Saturday, 26 November 2022 at 8:49:34 AM
+-------------------------------------
+func countElement(){
+    for row in 0..<arrayOfComputer.count{
+        for column in 0..<arrayOfComputer[row].count{
+            if row == 3 && column == 5{
+                print(arrayOfComputer[row][column])
+            }
+        }
+    }
+}
+print(countElement())
+
+
+=====================================
+ From: r94 (RWs-Mac-Pro)
+  at Saturday, 26 November 2022 at 8:54:05 AM
+-------------------------------------
+struct Watch {
+    var color: String
+    var model: Int
+    var size: String
+    var company: String
+    var price: Int
+}
+let shopp1: Watch=Watch(color: "black", model: 2022, size: "xl", company: "rolex", price: 200000)
+let shopp2: Watch=Watch(color: "black", model: 2022, size: "xl", company: "rolex", price: 200000)
+let shopp3: Watch=Watch(color: "black", model: 2022, size: "xl", company: "rolex", price: 200000)
+let shop4: Watch=Watch(color: "black", model: 2022, size: "xl", company: "rolex", price: 200000)
+let shop5: Watch=Watch(color: "black", model: 2022, size: "xl", company: "rolex", price: 200000)
+let shop6: Watch=Watch(color: "black", model: 2022, size: "xl", company: "rolex", price: 200000)
+let shop7: Watch=Watch(color: "black", model: 2022, size: "xl", company: "rolex", price: 200000)
+let shop8: Watch=Watch(color: "black", model: 2022, size: "xl", company: "rolex", price: 200000)
+let shop9: Watch=Watch(color: "black", model: 2022, size: "xl", company: "rolex", price: 200000)
+let shop10: Watch=Watch(color: "black", model: 2022, size: "xl", company: "rolex", price: 200000)
+let shop11: Watch=Watch(color: "black", model: 2022, size: "xl", company: "rolex", price: 200000)
+let shop12: Watch=Watch(color: "black", model: 2022, size: "xl", company: "rolex", price: 200000)
+let shop13: Watch=Watch(color: "black", model: 2022, size: "xl", company: "rolex", price: 200000)
+let shop14: Watch=Watch(color: "black", model: 2022, size: "xl", company: "rolex", price: 200000)
+let shop15: Watch=Watch(color: "black", model: 2022, size: "xl", company: "rolex", price: 200000)
+let shop16: Watch=Watch(color: "black", model: 2022, size: "xl", company: "rolex", price: 200000)
+let shop17: Watch=Watch(color: "black", model: 2022, size: "xl", company: "rolex", price: 200000)
+let shop18: Watch=Watch(color: "black", model: 2022, size: "xl", company: "rolex", price: 200000)
+let shop19: Watch=Watch(color: "black", model: 2022, size: "xl", company: "rolex", price: 200000)
+let shop20: Watch=Watch(color: "black", model: 2022, size: "xl", company: "rolex", price: 200000)
+let shop21: Watch=Watch(color: "black", model: 2022, size: "xl", company: "rolex", price: 200000)
+let shop22: Watch=Watch(color: "black", model: 2022, size: "xl", company: "rolex", price: 200000)
+let shop23: Watch=Watch(color: "black", model: 2022, size: "xl", company: "rolex", price: 200000)
+let shop24: Watch=Watch(color: "black", model: 2022, size: "xl", company: "rolex", price: 200000)
+let shop25: Watch=Watch(color: "black", model: 2022, size: "xl", company: "rolex", price: 200000)
+
+var arrWatch: [[Watch]] = [[shopp1,shopp2,shopp3,shop4,shop5],
+                           [shop6,shop7,shop8,shop9,shop10],
+                           [shop11,shop12,shop13,shop14,shop15],
+                           [shop16,shop17,shop18,shop19,shop20],
+                           [shop21,shop22,shop23,shop24,shop25]]
+
+
+=====================================
+ From: r81 (RWs-Mac-Pro)
+  at Monday, 28 November 2022 at 8:33:11 AM(multi)
+-------------------------------------
+var xCodeInfo: NSDictionary = [ "version" : "13.0",
+                                "owner" : "Apple",
+                                "isAndroidSupported" : false,
+                                "isSwiftUISupported" : true]
+
+
+print(xCodeInfo.value(forKey: "owner") as? String)
+
+
+
+var xCodeInfo1: Dictionary = [ "version" : "13.0",
+                                "owner" : "Apple",
+                                "isAndroidSupported" : false,
+                               "isSwiftUISupported" : true] as [String : Any]
+print(xCodeInfo1["owner"])
+
+
+
+struct XCode {
+    var version: String
+    var owner: String
+    var isAnroidSupported: Bool?
+    var isSwiftUISupported: Bool
+}
+
+
+var xcodeInfoObject: XCode = XCode(version: xCodeInfo1["version"] as! String,
+                                   owner: xCodeInfo1["owner"] as! String,
+                                   isAnroidSupported: xCodeInfo1["isAndroidSupported"] as? Bool,
+                                   isSwiftUISupported: xCodeInfo1["isSwiftUISupported"] as! Bool)
+print(xcodeInfoObject.isSwiftUISupported)
+
+
+
+class XCodeClass {
+    var version: String
+    var owner: String
+    var isAnroidSupported: Bool
+    var isSwiftUISupported: Bool
+    
+    init(dic: Dictionary<String, Any>) {
+        self.version =  dic["version"] as! String
+        self.owner =  dic["owner"] as! String
+        self.isAnroidSupported =  dic["isAndroidSupported"] as! Bool
+        self.isSwiftUISupported = dic["isSwiftUISupported"] as! Bool
+    }
+    
+    init(version: String, owner: String, isAnroidSupported: Bool, isSwiftUISupported: Bool) {
+        self.version =  version
+        self.owner =  owner
+        self.isAnroidSupported =  isAnroidSupported
+        self.isSwiftUISupported = isSwiftUISupported
+    }
+}
+
+
+let xCodeInfoClassObject : XCodeClass = XCodeClass(dic: xCodeInfo1)
+print(xCodeInfoClassObject.owner)
+let xCodeInfoClassObject2 : XCodeClass = XCodeClass(version: xCodeInfo1["version"] as! String,
+                                                    owner: xCodeInfo1["owner"] as! String,
+                                                    isAnroidSupported: xCodeInfo1["isAndroidSupported"] as! Bool,
+                                                    isSwiftUISupported: xCodeInfo1["isSwiftUISupported"] as! Bool)
+print(xCodeInfoClassObject2.version)
+
+=====================================
+ From: Raxil Dudhat (RWs-Mac-Pro)
+  at Monday, 28 November 2022 at 9:14:22 AM(multi)(sealed)
+-------------------------------------
+//    init(version: String, owner: String, isAnroidSupported: Bool, isSwiftUISupported: Bool) {
+//        self.version =  version
+//        self.owner =  owner
+//        self.isAnroidSupported =  isAnroidSupported
+//        self.isSwiftUISupported = isSwiftUISupported
+//    }
+//}
+//
+//
+//let xCodeInfoClassObject : XCodeClass = XCodeClass(dic: xCodeInfo1)
+//print(xCodeInfoClassObject.owner)
+//let xCodeInfoClassObject2 : XCodeClass = XCodeClass(version: xCodeInfo1["version"] as! String,
+//                                                    owner: xCodeInfo1["owner"] as! String,
+//                                                    isAnroidSupported: xCodeInfo1["isAndroidSupported"] as! Bool,
+//                                                    isSwiftUISupported: xCodeInfo1["isSwiftUISupported"] as! Bool)
+//print(xCodeInfoClassObject2.version)
+
+//    init(version: String, owner: String, isAnroidSupported: Bool, isSwiftUISupported: Bool) {
+//        self.version =  version
+//        self.owner =  owner
+//        self.isAnroidSupported =  isAnroidSupported
+//        self.isSwiftUISupported = isSwiftUISupported
+//    }
+//}
+//
+//
+//let xCodeInfoClassObject : XCodeClass = XCodeClass(dic: xCodeInfo1)
+//print(xCodeInfoClassObject.owner)
+//let xCodeInfoClassObject2 : XCodeClass = XCodeClass(version: xCodeInfo1["version"] as! String,
+//                                                    owner: xCodeInfo1["owner"] as! String,
+//                                                    isAnroidSupported: xCodeInfo1["isAndroidSupported"] as! Bool,
+//                                                    isSwiftUISupported: xCodeInfo1["isSwiftUISupported"] as! Bool)
+//print(xCodeInfoClassObject2.version)
+
+//    init(version: String, owner: String, isAnroidSupported: Bool, isSwiftUISupported: Bool) {
+//        self.version =  version
+//        self.owner =  owner
+//        self.isAnroidSupported =  isAnroidSupported
+//        self.isSwiftUISupported = isSwiftUISupported
+//    }
+//}
+//
+//
+//let xCodeInfoClassObject : XCodeClass = XCodeClass(dic: xCodeInfo1)
+//print(xCodeInfoClassObject.owner)
+//let xCodeInfoClassObject2 : XCodeClass = XCodeClass(version: xCodeInfo1["version"] as! String,
+//                                                    owner: xCodeInfo1["owner"] as! String,
+//                                                    isAnroidSupported: xCodeInfo1["isAndroidSupported"] as! Bool,
+//                                                    isSwiftUISupported: xCodeInfo1["isSwiftUISupported"] as! Bool)
+//print(xCodeInfoClassObject2.version)
+
+//    init(version: String, owner: String, isAnroidSupported: Bool, isSwiftUISupported: Bool) {
+//        self.version =  version
+//        self.owner =  owner
+//        self.isAnroidSupported =  isAnroidSupported
+//        self.isSwiftUISupported = isSwiftUISupported
+//    }
+//}
+//
+//
+//let xCodeInfoClassObject : XCodeClass = XCodeClass(dic: xCodeInfo1)
+//print(xCodeInfoClassObject.owner)
+//let xCodeInfoClassObject2 : XCodeClass = XCodeClass(version: xCodeInfo1["version"] as! String,
+//                                                    owner: xCodeInfo1["owner"] as! String,
+//                                                    isAnroidSupported: xCodeInfo1["isAndroidSupported"] as! Bool,
+//                                                    isSwiftUISupported: xCodeInfo1["isSwiftUISupported"] as! Bool)
+//print(xCodeInfoClassObject2.version)
+
+//    init(version: String, owner: String, isAnroidSupported: Bool, isSwiftUISupported: Bool) {
+//        self.version =  version
+//        self.owner =  owner
+//        self.isAnroidSupported =  isAnroidSupported
+//        self.isSwiftUISupported = isSwiftUISupported
+//    }
+//}
+//
+//
+//let xCodeInfoClassObject : XCodeClass = XCodeClass(dic: xCodeInfo1)
+//print(xCodeInfoClassObject.owner)
+//let xCodeInfoClassObject2 : XCodeClass = XCodeClass(version: xCodeInfo1["version"] as! String,
+//                                                    owner: xCodeInfo1["owner"] as! String,
+//                                                    isAnroidSupported: xCodeInfo1["isAndroidSupported"] as! Bool,
+//                                                    isSwiftUISupported: xCodeInfo1["isSwiftUISupported"] as! Bool)
+//print(xCodeInfoClassObject2.version)
+
+//    init(version: String, owner: String, isAnroidSupported: Bool, isSwiftUISupported: Bool) {
+//        self.version =  version
+//        self.owner =  owner
+//        self.isAnroidSupported =  isAnroidSupported
+//        self.isSwiftUISupported = isSwiftUISupported
+//    }
+//}
+//
+//
+//let xCodeInfoClassObject : XCodeClass = XCodeClass(dic: xCodeInfo1)
+//print(xCodeInfoClassObject.owner)
+//let xCodeInfoClassObject2 : XCodeClass = XCodeClass(version: xCodeInfo1["version"] as! String,
+//                                                    owner: xCodeInfo1["owner"] as! String,
+//                                                    isAnroidSupported: xCodeInfo1["isAndroidSupported"] as! Bool,
+//                                                    isSwiftUISupported: xCodeInfo1["isSwiftUISupported"] as! Bool)
+//print(xCodeInfoClassObject2.version)
+
+//    init(version: String, owner: String, isAnroidSupported: Bool, isSwiftUISupported: Bool) {
+//        self.version =  version
+//        self.owner =  owner
+//        self.isAnroidSupported =  isAnroidSupported
+//        self.isSwiftUISupported = isSwiftUISupported
+//    }
+//}
+//
+//
+//let xCodeInfoClassObject : XCodeClass = XCodeClass(dic: xCodeInfo1)
+//print(xCodeInfoClassObject.owner)
+//let xCodeInfoClassObject2 : XCodeClass = XCodeClass(version: xCodeInfo1["version"] as! String,
+//                                                    owner: xCodeInfo1["owner"] as! String,
+//                                                    isAnroidSupported: xCodeInfo1["isAndroidSupported"] as! Bool,
+//                                                    isSwiftUISupported: xCodeInfo1["isSwiftUISupported"] as! Bool)
+//print(xCodeInfoClassObject2.version)
+
+//    init(version: String, owner: String, isAnroidSupported: Bool, isSwiftUISupported: Bool) {
+//        self.version =  version
+//        self.owner =  owner
+//        self.isAnroidSupported =  isAnroidSupported
+//        self.isSwiftUISupported = isSwiftUISupported
+//    }
+//}
+//
+//
+//let xCodeInfoClassObject : XCodeClass = XCodeClass(dic: xCodeInfo1)
+//print(xCodeInfoClassObject.owner)
+//let xCodeInfoClassObject2 : XCodeClass = XCodeClass(version: xCodeInfo1["version"] as! String,
+//                                                    owner: xCodeInfo1["owner"] as! String,
+//                                                    isAnroidSupported: xCodeInfo1["isAndroidSupported"] as! Bool,
+//                                                    isSwiftUISupported: xCodeInfo1["isSwiftUISupported"] as! Bool)
+//print(xCodeInfoClassObject2.version)
+
+//    init(version: String, owner: String, isAnroidSupported: Bool, isSwiftUISupported: Bool) {
+//        self.version =  version
+//        self.owner =  owner
+//        self.isAnroidSupported =  isAnroidSupported
+//        self.isSwiftUISupported = isSwiftUISupported
+//    }
+//}
+//
+//
+//let xCodeInfoClassObject : XCodeClass = XCodeClass(dic: xCodeInfo1)
+//print(xCodeInfoClassObject.owner)
+//let xCodeInfoClassObject2 : XCodeClass = XCodeClass(version: xCodeInfo1["version"] as! String,
+//                                                    owner: xCodeInfo1["owner"] as! String,
+//                                                    isAnroidSupported: xCodeInfo1["isAndroidSupported"] as! Bool,
+//                                                    isSwiftUISupported: xCodeInfo1["isSwiftUISupported"] as! Bool)
+//print(xCodeInfoClassObject2.version)
+
+//    init(version: String, owner: String, isAnroidSupported: Bool, isSwiftUISupported: Bool) {
+//        self.version =  version
+//        self.owner =  owner
+//        self.isAnroidSupported =  isAnroidSupported
+//        self.isSwiftUISupported = isSwiftUISupported
+//    }
+//}
+//
+//
+//let xCodeInfoClassObject : XCodeClass = XCodeClass(dic: xCodeInfo1)
+//print(xCodeInfoClassObject.owner)
+//let xCodeInfoClassObject2 : XCodeClass = XCodeClass(version: xCodeInfo1["version"] as! String,
+//                                                    owner: xCodeInfo1["owner"] as! String,
+//                                                    isAnroidSupported: xCodeInfo1["isAndroidSupported"] as! Bool,
+//                                                    isSwiftUISupported: xCodeInfo1["isSwiftUISupported"] as! Bool)
+//print(xCodeInfoClassObject2.version)
+
+//    init(version: String, owner: String, isAnroidSupported: Bool, isSwiftUISupported: Bool) {
+//        self.version =  version
+//        self.owner =  owner
+//        self.isAnroidSupported =  isAnroidSupported
+//        self.isSwiftUISupported = isSwiftUISupported
+//    }
+//}
+//
+//
+//let xCodeInfoClassObject : XCodeClass = XCodeClass(dic: xCodeInfo1)
+//print(xCodeInfoClassObject.owner)
+//let xCodeInfoClassObject2 : XCodeClass = XCodeClass(version: xCodeInfo1["version"] as! String,
+//                                                    owner: xCodeInfo1["owner"] as! String,
+//                                                    isAnroidSupported: xCodeInfo1["isAndroidSupported"] as! Bool,
+//                                                    isSwiftUISupported: xCodeInfo1["isSwiftUISupported"] as! Bool)
+//print(xCodeInfoClassObject2.version)
+
+//    init(version: String, owner: String, isAnroidSupported: Bool, isSwiftUISupported: Bool) {
+//        self.version =  version
+//        self.owner =  owner
+//        self.isAnroidSupported =  isAnroidSupported
+//        self.isSwiftUISupported = isSwiftUISupported
+//    }
+//}
+//
+//
+//let xCodeInfoClassObject : XCodeClass = XCodeClass(dic: xCodeInfo1)
+//print(xCodeInfoClassObject.owner)
+//let xCodeInfoClassObject2 : XCodeClass = XCodeClass(version: xCodeInfo1["version"] as! String,
+//                                                    owner: xCodeInfo1["owner"] as! String,
+//                                                    isAnroidSupported: xCodeInfo1["isAndroidSupported"] as! Bool,
+//                                                    isSwiftUISupported: xCodeInfo1["isSwiftUISupported"] as! Bool)
+//print(xCodeInfoClassObject2.version)
+
+//    init(version: String, owner: String, isAnroidSupported: Bool, isSwiftUISupported: Bool) {
+//        self.version =  version
+//        self.owner =  owner
+//        self.isAnroidSupported =  isAnroidSupported
+//        self.isSwiftUISupported = isSwiftUISupported
+//    }
+//}
+//
+//
+//let xCodeInfoClassObject : XCodeClass = XCodeClass(dic: xCodeInfo1)
+//print(xCodeInfoClassObject.owner)
+//let xCodeInfoClassObject2 : XCodeClass = XCodeClass(version: xCodeInfo1["version"] as! String,
+//                                                    owner: xCodeInfo1["owner"] as! String,
+//                                                    isAnroidSupported: xCodeInfo1["isAndroidSupported"] as! Bool,
+//                                                    isSwiftUISupported: xCodeInfo1["isSwiftUISupported"] as! Bool)
+//print(xCodeInfoClassObject2.version)
+
+//    init(version: String, owner: String, isAnroidSupported: Bool, isSwiftUISupported: Bool) {
+//        self.version =  version
+//        self.owner =  owner
+//        self.isAnroidSupported =  isAnroidSupported
+//        self.isSwiftUISupported = isSwiftUISupported
+//    }
+//}
+//
+//
+//let xCodeInfoClassObject : XCodeClass = XCodeClass(dic: xCodeInfo1)
+//print(xCodeInfoClassObject.owner)
+//let xCodeInfoClassObject2 : XCodeClass = XCodeClass(version: xCodeInfo1["version"] as! String,
+//                                                    owner: xCodeInfo1["owner"] as! String,
+//                                                    isAnroidSupported: xCodeInfo1["isAndroidSupported"] as! Bool,
+//                                                    isSwiftUISupported: xCodeInfo1["isSwiftUISupported"] as! Bool)
+//print(xCodeInfoClassObject2.version)
+
+
+
+=====================================
+ From: r93 (RWs-Mac-Pro)
+  at Monday, 28 November 2022 at 9:37:53 AM(multi)
+-------------------------------------
+var city: Dictionary<String, Any> = [ "name": "surat",
+                                      "gdp": "500 carod",
+                                      "isSmartCity": true]
+print(city["name"] as! String)
+
+
+struct CityInfo{
+    var name: String
+    var gdp: String
+    var isSmartCity: Bool
+}
+var CityInformation: CityInfo = CityInfo(name: city["name"] as! String, gdp: city["gdp"] as! String, isSmartCity: city["isSmartCity"] as! Bool)
+print(CityInformation)
+
+
+class CityInf{
+    var name: String
+    var gdp: String
+    var isSmartCity: Bool
+    
+    init(dic: Dictionary<String,Any>){
+        self.name = city["name"] as! String
+        self.gdp = city["gdp"] as! String
+        self.isSmartCity = city["isSmartCity"] as! Bool
+    }
+}
+var CityInform: CityInf = CityInf(dic: city)
+print(CityInform)
+
+
+=====================================
+ From: r92 (RWs-Mac-Pro)
+  at Monday, 28 November 2022 at 9:39:08 AM(multi)
+-------------------------------------
+
+
+=====================================
+ From: r92 (RWs-Mac-Pro)
+  at Monday, 28 November 2022 at 9:39:28 AM(multi)
+-------------------------------------
+var carDic: Dictionary = ["model":"1234",
+                          "name":"BMW",
+                          "price":125000] as [String : Any]
+
+print(carDic["model"])
+
+struct carDice{
+    var model: String
+    var name: String
+    var price: Double?
+}
+var carDetali: carDice = carDice(model: carDic["model"] as! String,
+                                 name: carDic["name"] as! String,
+                                 price: carDic["price"] as? Double)
+
+print(carDetali)
+
+class Car{
+    var model: String
+    var name: String
+    var price: Double
+    
+    init(dic: Dictionary<String, Any>){
+        self.model = carDic["model"]as! String
+        self.name = carDic["name"]as! String
+        self.price = carDic["price"]as! Double
+    }
+}
+
+var carinfo: Car = Car(dic: carDic)
+print(carinfo)
+
+=====================================
+ From: r92 (RWs-Mac-Pro)
+  at Monday, 28 November 2022 at 9:43:12 AM(multi)
+-------------------------------------
+
+
+=====================================
+ To: r94 (RWs-Mac-Pro)
+  at Tuesday, 29 November 2022 at 11:04:12 AM
+-------------------------------------
+var StudentDic : Dictionary = ["name" : "sanju",
+                                 "subject" : "7",
+                               "subjectName" : "english"] as [String :Any]
+
+print(StudentDic["name"])
+
+struct  Student1 {
+    var Name : String
+    var subject: Int
+    var subjectName: String
+}
+
+var studentInfoObject1: Student1 = Student1(Name: StudentDic["Name"] as! String,
+
+                                            subject: StudentDic["subject"] as! Int,
+                                            subjectName: StudentDic["subjectName"] as! String)
+print(studentInfoObject1.subjectName)
+
+class Student2 {
+    
+        var name1: String
+        var id: Int
+        var schoolName: String
+        
+        
+        init(dic: Dictionary<String, Any>) {
+            self.name1 =  dic["name1"] as! String
+            self.id =  dic["id"] as! Int
+            self.schoolName =  dic["schoolName"] as! String
+            
+        }
+        
+    }
+
+let histiry: Student2 = Student2(dic: StudentDic)
+print(histiry)
+
+
+
+
+
+var city: Dictionary<String, Any> = [ "name": "surat",
+                                      "gdp": "500 carod",
+                                      "isSmartCity": true]
+print(city["name"] as! String)
+
+
+struct CityInfo{
+    var name: String
+    var gdp: String
+    var isSmartCity: Bool
+}
+var CityInformation: CityInfo = CityInfo(name: city["name"] as! String, gdp: city["gdp"] as! String, isSmartCity: city["isSmartCity"] as! Bool)
+print(CityInformation)
+
+
+
+
+class CityInf{
+    var name: String
+    var gdp: String
+    var isSmartCity: Bool
+    
+    init(dic: Dictionary<String,Any>){
+        self.name = city["name"] as! String
+        self.gdp = city["gdp"] as! String
+        self.isSmartCity = city["isSmartCity"] as! Bool
+    }
+}
+var CityInform: CityInf = CityInf(dic: city)
+print(CityInform)
+
+
+var carDic: Dictionary = ["model":"1234",
+                          "name":"BMW",
+                          "price":125000] as [String : Any]
+
+print(carDic["model"])
+
+struct CarDice{
+    var model: String
+    var name: String
+    var price: Double?
+}
+var CarDetali: CarDice = CarDice(model: carDic["model"] as! String,
+                                 name: carDic["name"] as! String,
+                                 price: carDic["price"] as? Double)
+
+print(CarDetali)
+
+class Car{
+    var model: String
+    var name: String
+    var price: Double
+    
+    init(dic: Dictionary<String, Any>){
+        self.model = carDic["model"]as! String
+        self.name = carDic["name"]as! String
+        self.price = carDic["price"]as! Double
+    }
+}
+
+var carinfo: Car = Car(dic: carDic)
+print(carinfo)
+
+
+=====================================
+ From: r93 (RWs-Mac-Pro)
+  at Tuesday, 29 November 2022 at 11:06:28 AM
+-------------------------------------
+var cricket: Dictionary = ["team" : "india",
+                           "caption" : "virat Kohli",
+                           "bowler" : "bhumra",
+                           "keper": "ms dhoni"]
+struct Cricket {
+    var team: String
+    var caption: String
+    var bowler: String
+    var keper: String
+}
+
+var players: Cricket = Cricket(team: cricket["team"]!,
+                               caption: cricket["caption"]!,
+                               bowler: cricket["bowler"]!,
+                               keper: cricket["keper"]!)
+print(cricket)
+
+=====================================
+ From: r96 (RWs-Mac-Pro)
+  at Tuesday, 29 November 2022 at 12:04:49 PM(multi)
+-------------------------------------
+var arrKeys: [String] = ["HomeKey","OfficeKey","BikeKey"]
+arrKeys[0]
+var keysInfo: Dictionary<String,String> = ["HomeKeyNumber" : "1", "OfficeKey" : "23234", "BikeKey" : "23" ]
+for (key,value) in keysInfo {
+    print("\(key): \(value)")
+}
+
+print(keysInfo.keys)
+print(keysInfo.values)
+
+
+class KeyInfo{
+    var homeKeyNumber: String
+    var officeKeyNumber: String
+    var bikeKeyNumber: String
+    
+
+
+    init(dic: Dictionary<String, String>) {
+        self.homeKeyNumber =  dic["HomeKeyNumber"] ?? ""
+        self.officeKeyNumber =  dic["officeKey"] ?? ""
+        self.bikeKeyNumber =  dic["BikeKey"] ?? ""
+    }
+}
+
+
+let keyInfoObject: KeyInfo = KeyInfo(dic: keysInfo)
+print(keyInfoObject.bikeKeyNumber)
+
+
+=====================================
+ From: r96 (RWs-Mac-Pro)
+  at Wednesday, 30 November 2022 at 9:01:48 AM
+-------------------------------------
+
+
+=====================================
+ From: r96 (RWs-Mac-Pro)
+  at Wednesday, 30 November 2022 at 9:02:46 AM
+-------------------------------------
+truct Widget{
+    var location: String
+    var name: String
+    var url: String
+
+}
+
+struct Module{
+    var widgets: [Widget]
+}
+
+struct HelpLine{
+    var local: [String]
+    var service: String
+    var storage: Bool
+    var whiteListedDomains: [String]
+    var moduls: Module
+    var config: [String]
+    var connectors: [String]
+   
+}
+
+
+
+
+let speedDial1: Widget = Widget(location: "Bhatinda1", name: "Speed Dial1", url: "www.www.www1")
+let speedDial2: Widget = Widget(location: "Bhatinda2", name: "Speed Dial2", url: "www.www.www2")
+
+var arrWidgets: [Widget] = [speedDial1, speedDial2]
+
+let modelus: Module = Module(widgets: arrWidgets)
+
+
+let helpLineObject: HelpLine = HelpLine(local: ["en", "ln"],
+                                        service: "Projects",
+                                        storage: false,
+                                        whiteListedDomains: [],
+                                        moduls: modelus,
+                                        config: [],
+                                        connectors: [])
+
+
+
+print(helpLineObject.moduls.widgets[0].url)
+
+
+=====================================
+ From: r81 (RWs-Mac-Pro)
+  at Wednesday, 30 November 2022 at 11:52:35 AM
+-------------------------------------
+class Student {
+     
+    var id = 0
+    var name = ""
+    var number = 0
+}
+
+var student1 =  Student()
+var student2 = Student()
+
+student1.id = 1
+student1.name = "rahul"
+student1.number = 7898564534
+
+print(student1.id)
+print(student1.name)
+print(student1.number)
+
+student2.id = 2
+student2.name = "sanjay"
+student2.number = 6790932043
+
+print(student2.id)
+print(student2.name)
+print(student2.number)
+
+=====================================
+ From: r81 (RWs-Mac-Pro)
+  at Wednesday, 30 November 2022 at 11:53:55 AM
+-------------------------------------
+import UIKit
+
+// sir re karu hatu te
+
+//struct Widget{
+//    var location: String
+//    var name: String
+//    var url: String
+//
+//}
+//
+//struct Module{
+//    var widgets: [Widget]
+//}
+//
+//struct HelpLine{
+//    var local: [String]
+//    var service: String
+//    var storage: Bool
+//    var whiteListedDomains: [String]
+//    var moduls: Module
+//    var config: [String]
+//    var connectors: [String]
+//
+//}
+//let speedDial1: Widget = Widget(location: "Bhatinda1", name: "Speed Dial1", url: "www.www.www1")
+//let speedDial2: Widget = Widget(location: "Bhatinda2", name: "Speed Dial2", url: "www.www.www2")
+//
+//var arrWidgets: [Widget] = [speedDial1, speedDial2]
+//
+//let modelus: Module = Module(widgets: arrWidgets)
+//
+//
+//let helpLineObject: HelpLine = HelpLine(local: ["en", "ln"],
+//                                        service: "Projects",
+//                                        storage: false,
+//                                        whiteListedDomains: [],
+//                                        moduls: modelus,
+//                                        config: [],
+//                                        connectors: [])
+//print(helpLineObject.moduls.widgets[0].url)
+
+//me karu
+
+//struct WidgetArray{
+//    var location: String
+//    var name: String
+//    var url: String
+//}
+//
+//struct ModuleArray{
+//    var widgetsInfo: [WidgetArray]
+//
+//}
+//
+//struct Temp{
+//    var locale: [String]
+//    var service: String
+//    var storage: Bool
+//    var modules: ModuleArray
+//    var config: [String]
+//    var connecftors: [String]
+//}
+//
+//var widgetArrayObject1: WidgetArray = WidgetArray(location: "task-teb1", name: "ayush1", url: "/app/index.html1")
+//var widgetArrayObject2: WidgetArray = WidgetArray(location: "task-teb2", name: "ayush2", url: "/app/index.html2")
+//
+//var arrWidget:[WidgetArray] = [widgetArrayObject1,widgetArrayObject2]
+//
+//var moduleArrayObject: ModuleArray = ModuleArray(widgetsInfo: arrWidget)
+//
+//var tampObject: Temp = Temp(locale: ["en","hi"],
+//                            service: "projects",
+//                            storage: false,
+//                            modules: moduleArrayObject,
+//                            config: [],
+//                            connecftors: [])
+//print(tampObject.modules.widgetsInfo[0].url)
+
+//1
+
+
+//struct Icon{
+//    var src: String
+//    var type: String
+//    var sizes: String
+//}
+//
+//
+//
+//struct PizzaApp{
+//    var short_name: String
+//    var name: String
+//    var description: String
+//    var icons: [Icon]
+//    var start_urlo: String
+//    var display: String
+//    var background_color: String
+//    var theme_color: String
+//}
+//
+//
+//let iCon1: Icon = Icon(src: "resources/img/pizza-96*96", type: "img/png1", sizes: "96*96")
+//let iCon2: Icon = Icon(src: "resources/img/pizza-95*95", type: "img/png2", sizes: "95*95")
+//
+//var arriCon1: [Icon] = [iCon1,iCon2]
+//
+//
+//
+//var pizzaAppObject: PizzaApp = PizzaApp(short_name: "pizzaOrder",
+//                                        name: "ayush",
+//                                        description: "A simple pizza",
+//                                        icons: arriCon1,
+//                                        start_urlo: "",
+//                                        display: "",
+//                                        background_color: "",
+//                                        theme_color: "")
+//
+//print(pizzaAppObject.icons[0].src)
+
+
+//2
+
+struct MyAddrss{
+    var name: String
+    var gender: String
+    var streetaaddrss: String
+    var city: String
+    var age: String
+    var postalcode: Double
+}
+
+struct MyPersonnalInfo{
+
+    var  addrss: personnalInfo
+}
+
+struct MyInformeshan{
+    var empid: String
+    var personalInfo: [Any]
+}
+
+var yourAddrssObject1: MyAddrss = MyAddrss(streetaaddrss: "72 street",
+                                           city: "surat",
+                                           age: "18",
+                                           postalcode: 395010)
+var yourAddrssObject2: MyAddrss = MyAddrss(streetaaddrss: "73 street",
+                                           city: "surat",
+                                           age: "25",
+                                           postalcode: 395010)
+
+var arrAddrss: [MyAddrss] = [yourAddrssObject1,yourAddrssObject2]
+
+
+var personnalInfo: MyPersonnalInfo = MyPersonnalInfo(name: "parth",
+                                                     gender: "mal",
+                                                     (addrss: arrAddrss))
+
+
+=====================================
+ From: r92 (RWs-Mac-Pro)
+  at Monday, 12 December 2022 at 9:04:09 AM
+-------------------------------------
+class Result{
+    var subject1: Float
+    var subject2: Float
+    var subject3: Float
+    var total: Float = 0.0
+    var results: Float = 0.0
+    
+    
+    init(subject1: Float,subject2: Float,subject3: Float){
+        self.subject1 = subject1
+        self.subject2 = subject2
+        self.subject3 = subject3
+    }
+    
+    func totalMarks() -> Float{
+        total = subject1 + subject2 + subject3
+        return total
+    }
+    
+    func persantage() -> Float{
+        results = (total/3)
+        return results
+    }
+    
+    
+    func printGrade(){
+        if persantage().isLess(than: 34){
+            print("You are fail")
+        }
+        else{
+            print("You are pass")
+        }
+    }
+    
+    func arrNumber(number:[Float]){
+        
+    }
+    
+}
+let detalis: Result = Result(subject1: 35.0, subject2: 45.0,subject3: 36.0)
+print(detalis.totalMarks())
+print(detalis.persantage())
+print(detalis.printGrade())
+
+
+class Computer {
+    var id: Int
+    var name: String
+    var type: String
+    var price: Double
+    var discount: Int
+    var gst: Int
+    
+    init(id: Int , name: String ,type: String ,price: Double, discount: Int, gst: Int){
+        self.id = id
+        self.name = name
+        self.type = type
+        self.price = price
+        self.discount = discount
+        self.gst = gst
+    }
+    func getHighPrice(arrMobile: [Computer])->Double{
+        var high: Double = 0.0
+        for index in 0..<arrMobile.count{
+            if arrMobile[index].price > high {
+                high = arrMobile[index].price
+            }
+        }
+       return high
+    }
+    
+    func getTotalOfAllPrice(arrnewComputer: [Computer])-> Double{
+        var sum: Double = 0
+        for index in 0..<arrnewComputer.count{
+            sum = sum + arrnewComputer[index].price
+        }
+        return sum
+    }
+    
+    func getUpdateId(newId: Int , update: Int)->Int{
+        for index in 0..<arrComputer.count{
+            if arrComputer[index].gst == newId{
+                arrComputer[index].id = update
+            }
+        }
+        return update
+    }
+   
+    
+}
+
+var Computer1: Computer = Computer(id: 1, name: "oppo", type: "C type Android", price: 16500, discount: 10, gst: 5)
+var Computer2: Computer = Computer(id: 2, name: "Redmi", type: "C type Android", price: 14500, discount: 12, gst: 6)
+var Computer3: Computer = Computer(id: 3, name: "Lenovo", type: "Android", price: 11750, discount: 15, gst: 7)
+var Computer4: Computer = Computer(id: 4, name: "Sony", type: "Android", price: 20400, discount: 8, gst: 8)
+var Computer5: Computer = Computer(id: 5, name: "Samsung", type: "C type Android", price: 18200, discount: 9, gst: 9)
+var Computer6: Computer = Computer(id: 6, name: "Motorola", type: "C type Android", price: 14900, discount: 12, gst: 10)
+
+
+let arrComputer: [Computer] = [Computer1,Computer2,Computer3,Computer4,Computer5,Computer6]
+
+Computer1.getHighPrice(arrMobile: arrComputer)
+
+Computer2.getTotalOfAllPrice(arrnewComputer: arrComputer)
+print("func 3 Answer:-  ",Computer6.getUpdateId(newId: 2, update: 100))
+
+
+
+
+
+=====================================
+ To: r87 (RWs-Mac-Pro)
+  at Monday, 12 December 2022 at 9:27:06 AM
+-------------------------------------
+class Rectangle {
+    var width : Int
+    var hight: Int
+      
+    
+    init(width:Int ,hight:Int) {
+        self.width = width
+        self.hight = hight
+    }
+    func getArea() ->Int {
+    
+        var area:Int
+        area = width * hight
+     return area
+    }
+}
+let details: Rectangle = Rectangle(width: 455, hight: 54568)
+print(details.getArea())
+
+
+
+class Result{
+    var subject1: Float
+    var subject2: Float
+    var subject3: Float
+    var total: Float = 0.0
+    var results: Float = 0.0
+    
+    
+    init(subject1: Float,subject2: Float,subject3: Float){
+        self.subject1 = subject1
+        self.subject2 = subject2
+        self.subject3 = subject3
+    }
+    
+    func totalMarks() -> Float{
+        total = subject1 + subject2 + subject3
+        return total
+    }
+    
+    func persantage() -> Float{
+        results = (total/3)
+        return results
+    }
+    
+    
+    func printGrade(){
+        if persantage().isLess(than: 34){
+            print("You are fail")
+        }
+        else{
+            print("You are pass")
+        }
+    }
+    
+    func arrNumber(number:[Float]){
+        
+    }
+    
+}
+let detalis: Result = Result(subject1: 35.0, subject2: 45.0,subject3: 36.0)
+print(detalis.totalMarks())
+print(detalis.persantage())
+print(detalis.printGrade())
+
+
+class Computer {
+    var id: Int
+    var name: String
+    var type: String
+    var price: Double
+    var discount: Int
+    var gst: Int
+    
+    init(id: Int , name: String ,type: String ,price: Double, discount: Int, gst: Int){
+        self.id = id
+        self.name = name
+        self.type = type
+        self.price = price
+        self.discount = discount
+        self.gst = gst
+    }
+    func getHighPrice(arrMobile: [Computer])->Double{
+        var high: Double = 0.0
+        for index in 0..<arrMobile.count{
+            if arrMobile[index].price > high {
+                high = arrMobile[index].price
+            }
+        }
+       return high
+    }
+    
+    func getTotalOfAllPrice(arrnewComputer: [Computer])-> Double{
+        var sum: Double = 0
+        for index in 0..<arrnewComputer.count{
+            sum = sum + arrnewComputer[index].price
+        }
+        return sum
+    }
+    
+    func getUpdateId(newId: Int , update: Int)->Int{
+        for index in 0..<arrComputer.count{
+            if arrComputer[index].gst == newId{
+                arrComputer[index].id = update
+            }
+        }
+        return update
+    }
+   
+    
+}
+
+var Computer1: Computer = Computer(id: 1, name: "oppo", type: "C type Android", price: 16500, discount: 10, gst: 5)
+var Computer2: Computer = Computer(id: 2, name: "Redmi", type: "C type Android", price: 14500, discount: 12, gst: 6)
+var Computer3: Computer = Computer(id: 3, name: "Lenovo", type: "Android", price: 11750, discount: 15, gst: 7)
+var Computer4: Computer = Computer(id: 4, name: "Sony", type: "Android", price: 20400, discount: 8, gst: 8)
+var Computer5: Computer = Computer(id: 5, name: "Samsung", type: "C type Android", price: 18200, discount: 9, gst: 9)
+var Computer6: Computer = Computer(id: 6, name: "Motorola", type: "C type Android", price: 14900, discount: 12, gst: 10)
+
+
+let arrComputer: [Computer] = [Computer1,Computer2,Computer3,Computer4,Computer5,Computer6]
+
+Computer1.getHighPrice(arrMobile: arrComputer)
+
+Computer2.getTotalOfAllPrice(arrnewComputer: arrComputer)
+print("func 3 Answer:-  ",Computer6.getUpdateId(newId: 2, update: 100))
+
+
+
+ 
+class Rectangle {
+    var width : Int
+    var hight: Int
+      
+    
+    init(width:Int ,hight:Int) {
+        self.width = width
+        self.hight = hight
+    }
+    func getArea() ->Int {
+    
+        var area:Int
+        area = width * hight
+     return area
+    }
+}
+let details: Rectangle = Rectangle(width: 455, hight: 54568)
+print(details.getArea())
+
+
+
+class Result{
+    var subject1: Float
+    var subject2: Float
+    var subject3: Float
+    var total: Float = 0.0
+    var results: Float = 0.0
+    
+    
+    init(subject1: Float,subject2: Float,subject3: Float){
+        self.subject1 = subject1
+        self.subject2 = subject2
+        self.subject3 = subject3
+    }
+    
+    func totalMarks() -> Float{
+        total = subject1 + subject2 + subject3
+        return total
+    }
+    
+    func persantage() -> Float{
+        results = (total/3)
+        return results
+    }
+    
+    
+    func printGrade(){
+        if persantage().isLess(than: 34){
+            print("You are fail")
+        }
+        else{
+            print("You are pass")
+        }
+    }
+    
+    func arrNumber(number:[Float]){
+        
+    }
+    
+}
+let detalis: Result = Result(subject1: 35.0, subject2: 45.0,subject3: 36.0)
+print(detalis.totalMarks())
+print(detalis.persantage())
+print(detalis.printGrade())
+
+
+class Computer {
+    var id: Int
+    var name: String
+    var type: String
+    var price: Double
+    var discount: Int
+    var gst: Int
+    
+    init(id: Int , name: String ,type: String ,price: Double, discount: Int, gst: Int){
+        self.id = id
+        self.name = name
+        self.type = type
+        self.price = price
+        self.discount = discount
+        self.gst = gst
+    }
+    func getHighPrice(arrMobile: [Computer])->Double{
+        var high: Double = 0.0
+        for index in 0..<arrMobile.count{
+            if arrMobile[index].price > high {
+                high = arrMobile[index].price
+            }
+        }
+       return high
+    }
+    
+    func getTotalOfAllPrice(arrnewComputer: [Computer])-> Double{
+        var sum: Double = 0
+        for index in 0..<arrnewComputer.count{
+            sum = sum + arrnewComputer[index].price
+        }
+        return sum
+    }
+    
+    func getUpdateId(newId: Int , update: Int)->Int{
+        for index in 0..<arrComputer.count{
+            if arrComputer[index].gst == newId{
+                arrComputer[index].id = update
+            }
+        }
+        return update
+    }
+   
+    
+}
+
+var Computer1: Computer = Computer(id: 1, name: "oppo", type: "C type Android", price: 16500, discount: 10, gst: 5)
+var Computer2: Computer = Computer(id: 2, name: "Redmi", type: "C type Android", price: 14500, discount: 12, gst: 6)
+var Computer3: Computer = Computer(id: 3, name: "Lenovo", type: "Android", price: 11750, discount: 15, gst: 7)
+var Computer4: Computer = Computer(id: 4, name: "Sony", type: "Android", price: 20400, discount: 8, gst: 8)
+var Computer5: Computer = Computer(id: 5, name: "Samsung", type: "C type Android", price: 18200, discount: 9, gst: 9)
+var Computer6: Computer = Computer(id: 6, name: "Motorola", type: "C type Android", price: 14900, discount: 12, gst: 10)
+
+
+let arrComputer: [Computer] = [Computer1,Computer2,Computer3,Computer4,Computer5,Computer6]
+
+Computer1.getHighPrice(arrMobile: arrComputer)
+
+Computer2.getTotalOfAllPrice(arrnewComputer: arrComputer)
+print("func 3 Answer:-  ",Computer6.getUpdateId(newId: 2, update: 100))
+
+
+class Rectangle {
+    var width : Int
+    var hight: Int
+      
+    
+    init(width:Int ,hight:Int) {
+        self.width = width
+        self.hight = hight
+    }
+    func getArea() ->Int {
+    
+        var area:Int
+        area = width * hight
+     return area
+    }
+}
+let details: Rectangle = Rectangle(width: 455, hight: 54568)
+print(details.getArea())
+
+
+
+class Result{
+    var subject1: Float
+    var subject2: Float
+    var subject3: Float
+    var total: Float = 0.0
+    var results: Float = 0.0
+    
+    
+    init(subject1: Float,subject2: Float,subject3: Float){
+        self.subject1 = subject1
+        self.subject2 = subject2
+        self.subject3 = subject3
+    }
+    
+    func totalMarks() -> Float{
+        total = subject1 + subject2 + subject3
+        return total
+    }
+    
+    func persantage() -> Float{
+        results = (total/3)
+        return results
+    }
+    
+    
+    func printGrade(){
+        if persantage().isLess(than: 34){
+            print("You are fail")
+        }
+        else{
+            print("You are pass")
+        }
+    }
+    
+    func arrNumber(number:[Float]){
+        
+    }
+    
+}
+let detalis: Result = Result(subject1: 35.0, subject2: 45.0,subject3: 36.0)
+print(detalis.totalMarks())
+print(detalis.persantage())
+print(detalis.printGrade())
+
+
+class Computer {
+    var id: Int
+    var name: String
+    var type: String
+    var price: Double
+    var discount: Int
+    var gst: Int
+    
+    init(id: Int , name: String ,type: String ,price: Double, discount: Int, gst: Int){
+        self.id = id
+        self.name = name
+        self.type = type
+        self.price = price
+        self.discount = discount
+        self.gst = gst
+    }
+    func getHighPrice(arrMobile: [Computer])->Double{
+        var high: Double = 0.0
+        for index in 0..<arrMobile.count{
+            if arrMobile[index].price > high {
+                high = arrMobile[index].price
+            }
+        }
+       return high
+    }
+    
+    func getTotalOfAllPrice(arrnewComputer: [Computer])-> Double{
+        var sum: Double = 0
+        for index in 0..<arrnewComputer.count{
+            sum = sum + arrnewComputer[index].price
+        }
+        return sum
+    }
+    
+    func getUpdateId(newId: Int , update: Int)->Int{
+        for index in 0..<arrComputer.count{
+            if arrComputer[index].gst == newId{
+                arrComputer[index].id = update
+            }
+        }
+        return update
+    }
+   
+    
+}
+
+var Computer1: Computer = Computer(id: 1, name: "oppo", type: "C type Android", price: 16500, discount: 10, gst: 5)
+var Computer2: Computer = Computer(id: 2, name: "Redmi", type: "C type Android", price: 14500, discount: 12, gst: 6)
+var Computer3: Computer = Computer(id: 3, name: "Lenovo", type: "Android", price: 11750, discount: 15, gst: 7)
+var Computer4: Computer = Computer(id: 4, name: "Sony", type: "Android", price: 20400, discount: 8, gst: 8)
+var Computer5: Computer = Computer(id: 5, name: "Samsung", type: "C type Android", price: 18200, discount: 9, gst: 9)
+var Computer6: Computer = Computer(id: 6, name: "Motorola", type: "C type Android", price: 14900, discount: 12, gst: 10)
+
+
+let arrComputer: [Computer] = [Computer1,Computer2,Computer3,Computer4,Computer5,Computer6]
+
+Computer1.getHighPrice(arrMobile: arrComputer)
+
+Computer2.getTotalOfAllPrice(arrnewComputer: arrComputer)
+print("func 3 Answer:-  ",Computer6.getUpdateId(newId: 2, update: 100))
+
+
+ 
+
+
+=====================================
+ From: r87 (RWs-Mac-Pro)
+  at Monday, 1 January 2024 at 12:31:47 PM(sealed)
+-------------------------------------
+
+
+=====================================
+ From: r87 (RWs-Mac-Pro)
+  at Wednesday, 14 December 2022 at 12:33:27 PM(multi)(sealed)
+-------------------------------------
+
+
+=====================================
+ From: r87 (RWs-Mac-Pro)
+  at Wednesday, 14 December 2022 at 12:37:43 PM(sealed)
+-------------------------------------
+
+
+=====================================
+ From: r92 (RWs-Mac-Pro)
+  at Wednesday, 14 December 2022 at 12:39:05 PM
+-------------------------------------
+
+
+=====================================
+ From: r92 (RWs-Mac-Pro)
+  at Wednesday, 14 December 2022 at 12:51:35 PM
+-------------------------------------
+
+
+=====================================
+ From: r93 (RWs-Mac-Pro)
+  at Wednesday, 14 December 2022 at 12:55:15 PM
+-------------------------------------
+
+
+=====================================
+ From: r93 (RWs-Mac-Pro)
+  at Thursday, 15 December 2022 at 2:12:10 PM
+-------------------------------------
+
+
+=====================================
+ From: r92 (RWs-Mac-Pro)
+  at Monday, 1 January 2024 at 7:44:09 AM
+-------------------------------------
+let cameraButton: UIAlertAction = UIAlertAction(title: "Camera", style: .default){ button in
+            if UIImagePickerController.isSourceTypeAvailable(.camera)
+            {
+                self.openCamera()
+                //                self.openImagePicker(SourceType: .camera)
+            }
+            else
+            {
+                self.displayAlert(message: "Camera is not available")
+            }
+                      
+                       
+        }
+        
+        let imageButton: UIAlertAction = UIAlertAction(title: "Images", style: .default){ button in
+            if UIImagePickerController.isSourceTypeAvailable(.camera)
+            {
+                self.openImages()
+                //                self.openImagePicker(SourceType: .camera)
+            }
+            else
+            {
+                self.displayAlert(message: "Images is not available")
+            }
+        }
+
+
+=====================================
+ From: r93 (RWs-Mac-Pro)
+  at Monday, 1 January 2024 at 7:45:56 AM(multi)
+-------------------------------------
+Image Picker
+-button Levu, IBAction ne IBOutlet Apva
+-initial setup ni adar corner radius set Kare
+- Open action sheet     
+- 2 option Apia
+- Camera
+- Gallery
+- Present karta action sheet ne
+- Image picker configure karvanu
+- 2 delegate che e capo
+- Ana adar join ne check kart
+- Object bane
+- 3
+- Allow editing
+- Source type
+- Delegate solve
+
+- Call this function in action sheet button ni click par
+- Ana pela source type available chhe ke nai  a check kart
+- 2 delegate method implement karo
+- Note: 
+-     Dismis kavu farjiyat
+- Cancel par kai nai
+- Didfinishmediawithinfo
+- Editing allow Karelia hoi
+- Edited image
+- Normal
+- Original image
+
+
+=====================================
+ From: R&W ANDROID (RWs-Mac-Pro)
+  at Monday, 1 January 2024 at 7:50:05 AM
+-------------------------------------
+
+
+=====================================
+ From: r92 (RWs-Mac-Pro)
+  at Monday, 1 January 2024 at 7:39:46 AM
+-------------------------------------
+
+
+=====================================
+ From: r93 (RWs-Mac-Pro)
+  at Monday, 1 January 2024 at 7:39:51 AM(multi)
+-------------------------------------
+
+
+=====================================
+ To: R95 (RWs-Mac-Pro)
+  at Wednesday, 22 February 2034 at 1:44:38 PM(files)
+-------------------------------------
+
+
+=====================================
+ From: R95 (RWs-Mac-Pro)
+  at Wednesday, 22 February 2034 at 1:44:38 PM
+-------------------------------------
+
+
+=====================================
+ From: r96 (RWs-Mac-Pro)
+  at Saturday, 17 December 2022 at 9:14:57 AM
+-------------------------------------
+
+
+=====================================
+ From: r92 (RWs-Mac-Pro)
+  at Monday, 19 December 2022 at 9:38:56 AM
+-------------------------------------
+
+
+=====================================
+ From: r93 (RWs-Mac-Pro)
+  at Tuesday, 20 December 2022 at 9:07:58 AM
+-------------------------------------
+
+
+=====================================
+ To: Rakshil Dudhat (Rakshils-MacBook-Air)
+  at Wednesday, 21 December 2022 at 9:06:52 AM(files)
+-------------------------------------
+
+
+=====================================
+ From: r94 (RWs-Mac-Pro)
+  at Friday, 23 December 2022 at 11:23:52 AM
+-------------------------------------
+//que 1
+//find gross salary
+
+var grossSalary: Int = 0
+var baseSalary: Int = 100
+var HRA : Int = 10
+var DA : Int = 5
+var TA : Int = 8
+
+ grossSalary = baseSalary + HRA + DA + TA
+
+print("gross Salary = \(grossSalary)")
+
+print("...................")
+
+//que 2
+//swapping variable with use function
+
+
+func variable ()
+{
+    var  num1 : Int = 25
+    var num2 : Int = 24
+    var total : Int = 0
+
+
+    total = num1
+    num1 = num2
+    num2 = total
+
+    print("swapping number = \(num1)")
+    print("swapping number = \(num2)")
+}
+
+variable()
+ print("................")
+
+//que 3
+// last digit number
+ 
+
+func total ()
+{
+    var value : Int = 456
+    var ldigit : Int = 0
+    var fdigit : Int = 0
+    var total: Int = 0
+
+
+    ldigit=value%10
+
+   while (value>=10)
+    {
+        value = value/10
+    }
+    fdigit = value
+
+     total = fdigit + ldigit
+    print(total)
+
+}
+total()
+
+ 
+
+
+
+//que 4
+//negative
+
+var array:[Int] = [1,-4,6,-7,-89]
+
+for element in 0..<array.count
+{
+    if(array[element]<0)
+    {
+        print(array[element])
+
+    }
+}
+
+print(".....................")
+
+
+//que 5
+//diagonal element matrixar
+
+ var a: [[Int]] = [[1,2,3],
+                  [4,5,6],
+                  [7,8,9]]
+
+ var sum:Int = 0
+
+     for i in 0..<a.count
+    {
+         for j in 0..<a[i].count
+         {
+                if(i==j)
+                {
+
+                print(a[i][j])
+                 sum=sum+a[i][j]
+
+               }
+        }
+}
+print("diagonal = \(sum)")
+
+print("...................")
+
+
+
+//que 6
+// factorial number
+
+func factorial(num:Int)->Int
+{
+    if(num == 0)
+    {
+        return 1
+    }
+    return  num * factorial(num: num - 1)
+
+}
+print("factorial number = ",factorial(num: 5))
+
+
+
+
+
+=====================================
+ To: R91 (R91s-Mac-Pro)
+  at Friday, 23 December 2022 at 11:27:19 AM
+-------------------------------------
+import UIKit
+
+print("-----------------------------------1--------------------------------")
+
+var grossSalary : Int = 0
+var baseSalary : Int = 100
+var hRA : Int = 10
+var dA : Int = 5
+var tA : Int = 8
+
+grossSalary = baseSalary + hRA + dA + tA
+
+print("Gross Salary = ",grossSalary)
+
+
+
+print("-----------------------------------2--------------------------------")
+func swap()
+{
+    var num1 : Int = 5
+    var num2 : Int = 10
+    var temp : Int = 0
+    temp = num1
+    num1 = num2
+    num2 = temp
+
+    print("After swapping num1 = \(num1) and num2 = \(num2)")
+}
+
+swap()
+
+
+print("-----------------------------------3--------------------------------")
+func add(number:Int)->Int
+{
+    var firstDigit : Int = number/100
+    var lastDigit : Int = number%10
+    var sum : Int = firstDigit + lastDigit
+    return sum
+    
+}
+print("Sum = ",add(number:654))
+
+
+print("-----------------------------------4--------------------------------")
+var arrayNumber : [Int] = [1,-2,3,-4,5,-6,7,-8,9]
+
+for negative in 0..<arrayNumber.count
+{
+    if(arrayNumber[negative]<0)
+    {
+        print("Negative number = ",arrayNumber[negative])
+    }
+}
+
+
+print("-----------------------------------5--------------------------------")
+var array : [[Int]] = [[1,2,3],
+                       [4,5,6],
+                       [7,8,9]]
+var sum : Int = 0
+
+for row in 0..<array.count
+{
+    for col in 0..<array[row].count
+    {
+        if(row==col)
+        {
+            print("Diagonal value = ",array[row][col])
+            sum+=array[row][col]
+        }
+    }
+}
+print("Sum Of Diagonal = ",sum)
+
+
+
+print("-----------------------------------6--------------------------------")
+func factorial(num:Int)->Int
+{
+    if(num==0)
+    {
+        return 1
+    }
+    return num * factorial(num: num-1)
+}
+print("Fact = ",factorial(num:5))
+
+
+=====================================
+ From: Rakshil Dudhat (Rakshils-MacBook-Air)
+  at Monday, 26 December 2022 at 9:28:58 AM
+-------------------------------------
+
+
+=====================================
+ From: Rakshil Dudhat (Rakshils-MacBook-Air)
+  at Monday, 26 December 2022 at 9:30:36 AM
+-------------------------------------
+
+
+=====================================
+ From: Rakshil Dudhat (Rakshils-MacBook-Air)
+  at Monday, 26 December 2022 at 9:33:06 AM
+-------------------------------------
+private func setUp(){
+        [fullNameTextField,birthdateTextField,passwordTextField,confirmPaswordTextfield,registrationButton].forEach{
+            setCornerRadious(view: $0, cornerRadious: 10)
+        }
+        fullNameTextField.delegate = self
+        passwordTextField.delegate = self
+        confirmPaswordTextfield.delegate = self
+    }
+    
+    func setCornerRadious(view: UIView?, cornerRadious: CGFloat){
+        view?.layer.cornerRadius = cornerRadious
+        view?.layer.masksToBounds = true
+    }
+    
+    
+    func displayAlert(message: String){
+        let alert: UIAlertController = UIAlertController(title: "Error", message: message, preferredStyle: .alert)
+        let okButton:UIAlertAction = UIAlertAction(title: "Ok", style: .default){button in
+            print("Please Check Information")
+        }
+        alert.addAction(okButton)
+        present(alert, animated: true)
+    }
+    
+    
+    @IBAction func registrasionButtonTapped(_ sender: UIButton) {
+        
+//        if fullNameTextField.text == " " || passwordTextField.text == " " || confirmPaswordTextfield.text == " "{
+//            displayAlert(message: "Enter valid UserName And Password")
+//        }
+        if fullNameTextField.text == " "{
+            displayAlert(message: "Enter UserName")
+        }
+        else if birthdateTextField.text == " "{
+            displayAlert(message: "Enter Your Birthdate")
+        }
+        else if passwordTextField.text == " " {
+            displayAlert(message: "Enter Password")
+        }
+        else if confirmPaswordTextfield.text == " "{
+            displayAlert(message: "Enter Confirm Password")
+        }
+        else if passwordTextField.text?.count ?? 0 < 4 || passwordTextField.text?.count ?? 0 > 8 {
+            displayAlert(message: "Enter Strong Password")
+        }
+        else if passwordTextField.text != confirmPaswordTextfield.text{
+           displayAlert(message: "Does Not Match Password")
+            
+        }
+        let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let loginViewController: LoginViewController = storyBoard.instantiateViewController(withIdentifier: "LoginViewController") as! LoginViewController
+        navigationController?.pushViewController(loginViewController, animated: true)
+        
+        
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        super.touchesBegan(touches, with: event)
+        view.endEditing(true)
+    }
+    
+}
+
+extension ViewController: UITextFieldDelegate{
+    func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool {
+        
+        switch textField.tag {
+        case 0:
+            return true
+        case 1:
+            return true
+        case 2:
+            return true
+        case 3:
+            return true
+        default:
+            return true
+        }
+    }
+    
+    func textFieldDidBeginEditing(_ textField: UITextField) {
+        print(textField.tag)
+    }
+    
+    func textFieldShouldEndEditing(_ textField: UITextField) -> Bool {
+        return true
+    }
+    
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        print(textField.text ?? "")
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        view.endEditing(true)
+        return true
+    }
+    
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+        
+        if textField.tag == 0 {
+            if string == "@" {
+                return false
+            } else {
+                return true
+            }
+        } else if textField.tag == 2 {
+            if string.contains("/") {
+                return false
+            } else {
+                return true
+            }
+        }
+        return true
+    }
+    
+}
+
+
+=====================================
+ From: Rakshil Dudhat (Rakshils-MacBook-Air)
+  at Monday, 26 December 2022 at 9:37:06 AM
+-------------------------------------
+private func setUp(){
+        [fullNameTextField,birthdateTextField,passwordTextField,confirmPaswordTextfield,registrationButton].forEach{
+            setCornerRadious(view: $0, cornerRadious: 10)
+        }
+        fullNameTextField.delegate = self
+        passwordTextField.delegate = self
+        confirmPaswordTextfield.delegate = self
+    }
+    
+    func setCornerRadious(view: UIView?, cornerRadious: CGFloat){
+        view?.layer.cornerRadius = cornerRadious
+        view?.layer.masksToBounds = true
+    }
+    
+    
+    func displayAlert(message: String){
+        let alert: UIAlertController = UIAlertController(title: "Error", message: message, preferredStyle: .alert)
+        let okButton:UIAlertAction = UIAlertAction(title: "Ok", style: .default){button in
+            print("Please Check Information")
+        }
+        alert.addAction(okButton)
+        present(alert, animated: true)
+    }
+    
+    
+    @IBAction func registrasionButtonTapped(_ sender: UIButton) {
+        
+//        if fullNameTextField.text == " " || passwordTextField.text == " " || confirmPaswordTextfield.text == " "{
+//            displayAlert(message: "Enter valid UserName And Password")
+//        }
+        if fullNameTextField.text == " "{
+            displayAlert(message: "Enter UserName")
+        }
+        else if birthdateTextField.text == " "{
+            displayAlert(message: "Enter Your Birthdate")
+        }
+        else if passwordTextField.text == " " {
+            displayAlert(message: "Enter Password")
+        }
+        else if confirmPaswordTextfield.text == " "{
+            displayAlert(message: "Enter Confirm Password")
+        }
+        else if passwordTextField.text?.count ?? 0 < 4 || passwordTextField.text?.count ?? 0 > 8 {
+            displayAlert(message: "Enter Strong Password")
+        }
+        else if passwordTextField.text != confirmPaswordTextfield.text{
+           displayAlert(message: "Does Not Match Password")
+            
+        }
+        let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let loginViewController: LoginViewController = storyBoard.instantiateViewController(withIdentifier: "LoginViewController") as! LoginViewController
+        navigationController?.pushViewController(loginViewController, animated: true)
+        
+        
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        super.touchesBegan(touches, with: event)
+        view.endEditing(true)
+    }
+    
+}
+
+extension ViewController: UITextFieldDelegate{
+    func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool {
+        
+        switch textField.tag {
+        case 0:
+            return true
+        case 1:
+            return true
+        case 2:
+            return true
+        case 3:
+            return true
+        default:
+            return true
+        }
+    }
+    
+    func textFieldDidBeginEditing(_ textField: UITextField) {
+        print(textField.tag)
+    }
+    
+    func textFieldShouldEndEditing(_ textField: UITextField) -> Bool {
+        return true
+    }
+    
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        print(textField.text ?? "")
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        view.endEditing(true)
+        return true
+    }
+    
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+        
+        if textField.tag == 0 {
+            if string == "@" {
+                return false
+            } else {
+                return true
+            }
+        } else if textField.tag == 2 {
+            if string.contains("/") {
+                return false
+            } else {
+                return true
+            }
+        }
+        return true
+    }
+    
+}
+
+
+=====================================
+ From: r93 (RWs-Mac-Pro)
+  at Monday, 26 December 2022 at 9:44:12 AM
+-------------------------------------
+
+
+=====================================
+ To: Rakshil Dudhat (Rakshils-MacBook-Air)
+  at Monday, 26 December 2022 at 9:47:23 AM(files)
+-------------------------------------
+
+
+=====================================
+ From: r92 (RWs-Mac-Pro)
+  at Tuesday, 27 December 2022 at 7:42:32 AM
+-------------------------------------
+
+
+=====================================
+ From: r96 (RWs-Mac-Pro)
+  at Thursday, 29 December 2022 at 5:51:22 AM
+-------------------------------------
+
+
+=====================================
+ From: r81 (RWs-Mac-Pro)
+  at Wednesday, 11 January 2023 at 12:14:39 PM
+-------------------------------------
+struct student{
+    var name : String
+    var marks : Int
+    var id : Int
+
+}
+var s1 : student = student(name: "jenis", marks: 99, id: 12)
+var s2 : student = student(name: "monil", marks: 89, id: 13)
+var s3 : student = student(name: "harshid", marks: 76, id: 14)
+var s4 : student = student(name: "kj", marks: 86, id: 15)
+var s5 : student = student(name: "jk", marks: 90, id: 16)
+var s6 : student = student(name: "yogi", marks: 56, id: 17)
+var s7 : student = student(name: "harsh", marks: 78, id: 18)
+var s8 : student = student(name: "rathod", marks: 95, id: 19)
+var s9 : student = student(name: "parth", marks: 92, id: 20)
+var s10 : student = student(name: "hasti", marks: 89, id: 21)
+var s11 : student = student(name: "dhruvi", marks: 56, id: 22)
+var s12 : student = student(name: "prinsu", marks: 99, id: 23)
+var s13 : student = student(name: "mahek", marks: 57, id: 24)
+var s14 : student = student(name: "mahima", marks: 79, id: 25)
+var s15 : student = student(name: "liza", marks: 95, id: 26)
+var s16 : student = student(name: "deni", marks: 57, id: 27)
+var s17 : student = student(name: "sahil", marks: 85, id: 28)
+var s18 : student = student(name: "dharmi", marks: 99, id: 29)
+var s19 : student = student(name: "yagnik", marks: 64, id: 30)
+var s20 : student = student(name: "jemil", marks: 67, id: 31)
+var s21 : student = student(name: "rushit", marks: 68, id: 32)
+var s22 : student = student(name: "ashu", marks: 79, id: 33)
+var s23 : student = student(name: "sannju", marks: 80, id: 34)
+var s24 : student = student(name: "milin", marks: 80, id: 35)
+var s25 : student = student(name: "jeel", marks: 91, id: 36)
+
+var array : [[student]] = [[s1,s2,s3,s4,s5],
+                           [s6,s7,s8,s9,s10],
+                           [s11,s12,s13,s14,s15],
+                           [s16,s17,s18,s19,s20],
+                           [s21,s22,s23,s24,s25],]
+dump(array[2][4])
+
+=====================================
+ From: R91 (R91s-Mac-Pro)
+  at Tuesday, 17 January 2023 at 10:40:27 AM
+-------------------------------------
+
+
+=====================================
+ To: r96 (RWs-Mac-Pro)
+  at Tuesday, 17 January 2023 at 10:41:48 AM(files)
+-------------------------------------
+
+
+=====================================
+ To: r80 (RWs-Mac-Pro)
+  at Tuesday, 17 January 2023 at 10:53:11 AM(files)
+-------------------------------------
+
+
+=====================================
+ From: r93 (RWs-Mac-Pro)
+  at Thursday, 19 January 2023 at 10:06:55 AM
+-------------------------------------
+
+
+=====================================
+ To: R91 (R91s-Mac-Pro)
+  at Friday, 20 January 2023 at 4:07:06 PM
+-------------------------------------
+dfgh
+
+=====================================
+ From: R91 (R91s-Mac-Pro)
+  at Friday, 20 January 2023 at 4:08:32 PM
+-------------------------------------
+>dfgh
+hk
+
+=====================================
+ From: R91 (R91s-Mac-Pro)
+  at Friday, 20 January 2023 at 4:38:26 PM
+-------------------------------------
+
+
+=====================================
+ From: R91 (R91s-Mac-Pro)
+  at Friday, 20 January 2023 at 4:39:31 PM
+-------------------------------------
+list to mali gay ano data alag kay rite karvo
+
+=====================================
+ To: R91 (R91s-Mac-Pro)
+  at Friday, 20 January 2023 at 4:40:31 PM
+-------------------------------------
+>list to mali gay ano data alag kay rite karvo
+mane nathi khabar
+
+https://appsquadtech.blogspot.com/2023/01/task-file.html
+
+aa bloger ni link che aama joi jo tane kaik male to
+
+=====================================
+ To: R91 (R91s-Mac-Pro)
+  at Friday, 20 January 2023 at 4:41:53 PM
+-------------------------------------
+api client banavavo hoy to kai file banavani??
+
+=====================================
+ From: R91 (R91s-Mac-Pro)
+  at Friday, 20 January 2023 at 4:42:28 PM
+-------------------------------------
+class file
+
+=====================================
+ From: R91 (R91s-Mac-Pro)
+  at Friday, 20 January 2023 at 4:51:36 PM
+-------------------------------------
+list mathi while loop ma data alag karta aavde
+
+=====================================
+ To: R91 (R91s-Mac-Pro)
+  at Friday, 20 January 2023 at 4:51:55 PM
+-------------------------------------
+>list mathi while loop ma data alag karta aavde
+na
+
+=====================================
+ To: r87 (RWs-Mac-Pro)
+  at Friday, 20 January 2023 at 5:00:41 PM
+-------------------------------------
+badhu aada avlu lakhyu che run karavu chu
+
+=====================================
+ From: r87 (RWs-Mac-Pro)
+  at Friday, 20 January 2023 at 5:01:21 PM(sealed)
+-------------------------------------
+>badhu aada avlu lakhyu che run karavu chu
+>ok
+
+=====================================
+ From: r87 (RWs-Mac-Pro)
+  at Friday, 20 January 2023 at 5:01:48 PM(sealed)
+-------------------------------------
+mne mail kr
+
+=====================================
+ To: r87 (RWs-Mac-Pro)
+  at Friday, 20 January 2023 at 5:02:04 PM
+-------------------------------------
+>mne mail kr
+ha pn pela run thava de
+
+
+=====================================
+ From: r87 (RWs-Mac-Pro)
+  at Friday, 20 January 2023 at 5:02:17 PM(sealed)
+-------------------------------------
+>>mne mail kr
+>ha pn pela run thava de
+>
+ok
+
+=====================================
+ From: r87 (RWs-Mac-Pro)
+  at Friday, 20 January 2023 at 5:05:33 PM(sealed)
+-------------------------------------
+hu ke
+
+=====================================
+ To: r87 (RWs-Mac-Pro)
+  at Friday, 20 January 2023 at 5:06:11 PM
+-------------------------------------
+harsh ne kessanger. saru kare
+
+=====================================
+ From: r87 (RWs-Mac-Pro)
+  at Friday, 20 January 2023 at 5:06:42 PM(sealed)
+-------------------------------------
+>harsh ne kessanger. saru kare
+ha
+
+=====================================
+ To: r87 (RWs-Mac-Pro)
+  at Friday, 20 January 2023 at 5:06:45 PM
+-------------------------------------
+>hu ke
+ip messanger saru kare am
+
+=====================================
+ From: r87 (RWs-Mac-Pro)
+  at Friday, 20 January 2023 at 5:07:40 PM(sealed)
+-------------------------------------
+>>hu ke
+>ip messanger saru kare am
+ha kidhu
+
+=====================================
+ From: r87 (RWs-Mac-Pro)
+  at Friday, 20 January 2023 at 5:08:16 PM(sealed)
+-------------------------------------
+thyo etlo to kr
+
+=====================================
+ To: r87 (RWs-Mac-Pro)
+  at Friday, 20 January 2023 at 5:08:29 PM
+-------------------------------------
+>thyo etlo to kr
+ha
+
+=====================================
+ From: r87 (RWs-Mac-Pro)
+  at Friday, 20 January 2023 at 5:08:31 PM(sealed)
+-------------------------------------
+mail
+
+=====================================
+ From: r87 (RWs-Mac-Pro)
+  at Friday, 20 January 2023 at 5:08:36 PM(sealed)
+-------------------------------------
+>>thyo etlo to kr
+>ha
+hm
+
+=====================================
+ From: r87 (RWs-Mac-Pro)
+  at Friday, 20 January 2023 at 5:16:26 PM(sealed)
+-------------------------------------
+program to mokl hu error to joto thav
+
+=====================================
+ From: R91 (R91s-Mac-Pro)
+  at Friday, 20 January 2023 at 5:19:54 PM
+-------------------------------------
+>>list mathi while loop ma data alag karta aavde
+>na
+list alag thay
+
+=====================================
+ From: R91 (R91s-Mac-Pro)
+  at Friday, 20 January 2023 at 5:20:15 PM
+-------------------------------------
+list alag thay
+
+=====================================
+ To: R91 (R91s-Mac-Pro)
+  at Friday, 20 January 2023 at 5:20:19 PM
+-------------------------------------
+>>>list mathi while loop ma data alag karta aavde
+>>na
+>list alag thay
+hmm
+
+=====================================
+ To: R91 (R91s-Mac-Pro)
+  at Friday, 20 January 2023 at 5:20:27 PM
+-------------------------------------
+>list alag thay
+ok
+
+=====================================
+ From: R91 (R91s-Mac-Pro)
+  at Friday, 20 January 2023 at 5:20:49 PM
+-------------------------------------
+>>list alag thay
+>ok
+tare thay alag list
+
+=====================================
+ To: R91 (R91s-Mac-Pro)
+  at Friday, 20 January 2023 at 5:21:05 PM
+-------------------------------------
+>>>list alag thay
+>>ok
+>tare thay alag list
+na mare kaik error aave che
+
+=====================================
+ From: R91 (R91s-Mac-Pro)
+  at Friday, 20 January 2023 at 5:24:47 PM
+-------------------------------------
+>>>>list alag thay
+>>>ok
+>>tare thay alag list
+>na mare kaik error aave che
+oli link mokal to program ni
+
+=====================================
+ From: R91 (R91s-Mac-Pro)
+  at Friday, 20 January 2023 at 5:25:31 PM
+-------------------------------------
+mokal
+
+=====================================
+ To: R91 (R91s-Mac-Pro)
+  at Friday, 20 January 2023 at 5:25:51 PM
+-------------------------------------
+>>>>>list alag thay
+>>>>ok
+>>>tare thay alag list
+>>na mare kaik error aave che
+>oli link mokal to program ni
+https://appsquadtech.blogspot.com/2023/01/task-file.html
+
+=====================================
+ From: r87 (RWs-Mac-Pro)
+  at Friday, 20 January 2023 at 5:25:59 PM(sealed)
+-------------------------------------
+thy gyu
+
+=====================================
+ To: r87 (RWs-Mac-Pro)
+  at Friday, 20 January 2023 at 5:26:19 PM
+-------------------------------------
+>thy gyu
+na
+
+=====================================
+ From: r87 (RWs-Mac-Pro)
+  at Friday, 20 January 2023 at 5:26:29 PM(sealed)
+-------------------------------------
+>>thy gyu
+>na
+ok
+
+=====================================
+ From: R79 (R79s-Mac-Pro)
+  at Friday, 20 January 2023 at 5:38:35 PM
+-------------------------------------
+
+
+=====================================
+ From: R79 (R79s-Mac-Pro)
+  at Friday, 20 January 2023 at 5:39:03 PM
+-------------------------------------
+
+
+=====================================
+ To: R91 (R91s-Mac-Pro)
+  at Friday, 20 January 2023 at 5:40:40 PM
+-------------------------------------
+taro project share kar ne aama thayo hoy atlo
+
+=====================================
+ From: R91 (R91s-Mac-Pro)
+  at Friday, 20 January 2023 at 5:41:21 PM
+-------------------------------------
+>a
+tare baki su che
+
+=====================================
+ To: R91 (R91s-Mac-Pro)
+  at Friday, 20 January 2023 at 5:41:46 PM
+-------------------------------------
+>>a
+>tare baki su che
+error aave che kaik tu taro mokal ne ama hu badhu sudhari nakhis
+

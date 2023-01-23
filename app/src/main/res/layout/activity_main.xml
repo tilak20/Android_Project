@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingBottom="30dp"
+    android:gravity="bottom"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imgVector"
+        android:src="@drawable/vector1"
+        android:layout_width="500dp"
+        android:layout_height="600dp"/>
+
+<!--    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/btnGetData"-->
+<!--        android:layout_below="@id/imgVector"-->
+<!--        android:text="Tap to Get data"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:backgroundTint="#2196F3"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        />-->
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_below="@id/imgVector"
+        android:id="@+id/btnNext"
+        android:text="See Data"
+        app:icon="@drawable/baseline_arrow_forward_24"
+        app:iconTint="@color/white"
+        app:iconGravity="end"
+        android:textColor="@color/white"
+        android:backgroundTint="#2196F3"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>
